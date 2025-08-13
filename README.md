@@ -4,3 +4,6 @@ Get everything done;
 
 ## 0812
 temporal consistency exp;
+
+## 0814
+continue
