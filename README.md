@@ -10,3 +10,6 @@ continue;
 
 ## 0815
 timestep mode;
+
+## 0817
+captioning
