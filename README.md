@@ -16,3 +16,6 @@ captioning
 
 ## 0818
 test samples;
+
+## 0819
+continue train;
