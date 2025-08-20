@@ -19,3 +19,8 @@ test samples;
 
 ## 0819
 continue train;
+
+## 0820
+batch testing;
+
+
