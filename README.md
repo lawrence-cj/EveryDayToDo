@@ -23,4 +23,6 @@ continue train;
 ## 0820
 batch testing;
 
+## 0821
+launch training & inference
 
