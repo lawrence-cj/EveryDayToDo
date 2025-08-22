@@ -26,3 +26,6 @@ batch testing;
 ## 0821
 launch training & inference
 
+## 0823
+CFG;
+
