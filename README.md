@@ -29,3 +29,5 @@ launch training & inference
 ## 0823
 CFG;
 
+## 0824
+Moving home;
