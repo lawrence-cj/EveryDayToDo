@@ -68,3 +68,6 @@ paper;
 ## 0924
 continue;
 
+## 0925
+finish; then metrics;
+
