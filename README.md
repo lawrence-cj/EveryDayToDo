@@ -71,3 +71,6 @@ continue;
 ## 0925
 finish; then metrics;
 
+## 0927
+demo; ppt;
+
