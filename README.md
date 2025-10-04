@@ -83,3 +83,6 @@ cache; ppt;
 ## 1004
 text encoder;
 
+## 1005
+text encoder;
+
