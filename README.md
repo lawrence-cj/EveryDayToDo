@@ -149,3 +149,6 @@ come back;
 ## 0104
 work;
 
+## 0105
+learning;
+
