@@ -152,3 +152,6 @@ work;
 ## 0105
 learning;
 
+## 0106
+edit;
+
