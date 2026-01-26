@@ -176,3 +176,6 @@ wan;
 ## 0122
 keep going;
 
+## 0126
+continue;
+
