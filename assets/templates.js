@@ -10,7 +10,7 @@ window.EveryDayToDoTemplates = [
       { title: "Clear the desk and close unused tabs", priority: "low" },
     ],
   },
-+  {
+  {
     id: "deep-work-block",
     title: "Deep work block",
     category: "Focus",
@@ -21,7 +21,7 @@ window.EveryDayToDoTemplates = [
       { title: "Capture the next action before ending the session", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "priority-triage",
     title: "Priority triage",
     category: "Focus",
@@ -32,7 +32,7 @@ window.EveryDayToDoTemplates = [
       { title: "Defer or delete work that does not matter this week", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "distraction-reset",
     title: "Distraction reset",
     category: "Focus",
@@ -43,7 +43,7 @@ window.EveryDayToDoTemplates = [
       { title: "Work for twenty minutes on the next visible action", priority: "high" },
     ],
   },
-+  {
+  {
     id: "morning-launch",
     title: "Morning launch",
     category: "Focus",
@@ -54,7 +54,7 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare the files and materials needed to begin", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "afternoon-reset",
     title: "Afternoon reset",
     category: "Focus",
@@ -65,7 +65,7 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule or defer work that no longer fits today", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "end-of-day-shutdown",
     title: "End-of-day shutdown",
     category: "Focus",
@@ -76,7 +76,7 @@ window.EveryDayToDoTemplates = [
       { title: "Close work tools and clear the physical workspace", priority: "low" },
     ],
   },
-+  {
+  {
     id: "single-task-sprint",
     title: "Single-task sprint",
     category: "Focus",
@@ -87,7 +87,7 @@ window.EveryDayToDoTemplates = [
       { title: "Record what changed and identify the next smallest step", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "inbox-boundary",
     title: "Inbox boundary",
     category: "Focus",
@@ -98,7 +98,7 @@ window.EveryDayToDoTemplates = [
       { title: "Turn non-email work into scheduled tasks", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "decision-clarity",
     title: "Decision clarity",
     category: "Focus",
@@ -109,7 +109,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose a next action or a deadline for deciding", priority: "high" },
     ],
   },
-+  {
+  {
     id: "energy-aware-plan",
     title: "Energy-aware plan",
     category: "Focus",
@@ -120,7 +120,7 @@ window.EveryDayToDoTemplates = [
       { title: "Protect one recovery break before the next demanding task", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "weekly-work-plan",
     title: "Weekly work plan",
     category: "Work",
@@ -131,7 +131,7 @@ window.EveryDayToDoTemplates = [
       { title: "Reserve focus blocks for the most important outcome", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "project-kickoff",
     title: "Project kickoff",
     category: "Work",
@@ -142,7 +142,7 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule the first milestone and next review", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "client-delivery",
     title: "Client delivery",
     category: "Work",
@@ -153,7 +153,7 @@ window.EveryDayToDoTemplates = [
       { title: "Send the handoff with a clear feedback deadline", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "status-update",
     title: "Status update",
     category: "Work",
@@ -164,7 +164,7 @@ window.EveryDayToDoTemplates = [
       { title: "State the next milestone with its expected date", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "deadline-backplan",
     title: "Deadline backplan",
     category: "Work",
@@ -175,7 +175,7 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule the first concrete action today", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "delegation-review",
     title: "Delegation review",
     category: "Work",
@@ -186,7 +186,7 @@ window.EveryDayToDoTemplates = [
       { title: "Agree on a check-in date and expected update format", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "feedback-request",
     title: "Feedback request",
     category: "Work",
@@ -197,7 +197,7 @@ window.EveryDayToDoTemplates = [
       { title: "Set a response date and plan the follow-up", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "team-handoff",
     title: "Team handoff",
     category: "Work",
@@ -208,7 +208,7 @@ window.EveryDayToDoTemplates = [
       { title: "Confirm the receiving owner and next checkpoint", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "meeting-preparation",
     title: "Meeting preparation",
     category: "Work",
@@ -219,7 +219,7 @@ window.EveryDayToDoTemplates = [
       { title: "Draft an agenda with an owner and time box for each item", priority: "high" },
     ],
   },
-+  {
+  {
     id: "workday-closeout",
     title: "Workday closeout",
     category: "Work",
@@ -230,7 +230,7 @@ window.EveryDayToDoTemplates = [
       { title: "Send any time-sensitive update before ending the day", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "writing-brief",
     title: "Writing brief",
     category: "Writing",
@@ -241,7 +241,7 @@ window.EveryDayToDoTemplates = [
       { title: "Collect the evidence, examples, and links to support it", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "first-draft",
     title: "First draft",
     category: "Writing",
@@ -252,7 +252,7 @@ window.EveryDayToDoTemplates = [
       { title: "Mark gaps to research later instead of breaking momentum", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "revision-pass",
     title: "Revision pass",
     category: "Writing",
@@ -263,7 +263,7 @@ window.EveryDayToDoTemplates = [
       { title: "Read the piece aloud and fix awkward sentences", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "research-summary",
     title: "Research summary",
     category: "Writing",
@@ -274,7 +274,7 @@ window.EveryDayToDoTemplates = [
       { title: "Write implications and unanswered questions separately", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "editorial-calendar",
     title: "Editorial calendar",
     category: "Writing",
@@ -285,7 +285,7 @@ window.EveryDayToDoTemplates = [
       { title: "Assign each piece an owner, date, and working title", priority: "high" },
     ],
   },
-+  {
+  {
     id: "presentation-narrative",
     title: "Presentation narrative",
     category: "Writing",
@@ -296,7 +296,7 @@ window.EveryDayToDoTemplates = [
       { title: "Remove details that do not strengthen the core narrative", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "case-study",
     title: "Case study",
     category: "Writing",
@@ -307,7 +307,7 @@ window.EveryDayToDoTemplates = [
       { title: "Gather evidence of results and lessons learned", priority: "high" },
     ],
   },
-+  {
+  {
     id: "newsletter-issue",
     title: "Newsletter issue",
     category: "Writing",
@@ -318,7 +318,7 @@ window.EveryDayToDoTemplates = [
       { title: "Check links, calls to action, and mobile readability", priority: "high" },
     ],
   },
-+  {
+  {
     id: "documentation-pass",
     title: "Documentation pass",
     category: "Writing",
@@ -329,7 +329,7 @@ window.EveryDayToDoTemplates = [
       { title: "Verify examples match the current product behavior", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "announcement-draft",
     title: "Announcement draft",
     category: "Writing",
@@ -340,7 +340,7 @@ window.EveryDayToDoTemplates = [
       { title: "Include an explicit next step and help channel", priority: "high" },
     ],
   },
-+  {
+  {
     id: "research-question",
     title: "Research question",
     category: "Research",
@@ -351,7 +351,7 @@ window.EveryDayToDoTemplates = [
       { title: "List assumptions to test before collecting evidence", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "literature-scan",
     title: "Literature scan",
     category: "Research",
@@ -362,7 +362,7 @@ window.EveryDayToDoTemplates = [
       { title: "Summarize agreements, disagreements, and gaps", priority: "high" },
     ],
   },
-+  {
+  {
     id: "interview-study",
     title: "Interview study",
     category: "Research",
@@ -373,7 +373,7 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare consent, recording, and note-taking process", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "survey-design",
     title: "Survey design",
     category: "Research",
@@ -384,7 +384,7 @@ window.EveryDayToDoTemplates = [
       { title: "Pilot the survey with one representative respondent", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "data-audit",
     title: "Data audit",
     category: "Research",
@@ -395,7 +395,7 @@ window.EveryDayToDoTemplates = [
       { title: "Record limitations that affect interpretation", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "experiment-plan",
     title: "Experiment plan",
     category: "Research",
@@ -406,7 +406,7 @@ window.EveryDayToDoTemplates = [
       { title: "Write the decision rule before looking at results", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "analysis-plan",
     title: "Analysis plan",
     category: "Research",
@@ -417,7 +417,7 @@ window.EveryDayToDoTemplates = [
       { title: "Document how missing data and outliers will be handled", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "research-synthesis",
     title: "Research synthesis",
     category: "Research",
@@ -428,7 +428,7 @@ window.EveryDayToDoTemplates = [
       { title: "Identify the most important open question", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "competitor-study",
     title: "Competitor study",
     category: "Research",
@@ -439,7 +439,7 @@ window.EveryDayToDoTemplates = [
       { title: "Summarize opportunities instead of copying features", priority: "high" },
     ],
   },
-+  {
+  {
     id: "usability-test",
     title: "Usability test",
     category: "Research",
@@ -450,7 +450,7 @@ window.EveryDayToDoTemplates = [
       { title: "Review patterns across sessions before recommending changes", priority: "high" },
     ],
   },
-+  {
+  {
     id: "course-plan",
     title: "Course plan",
     category: "Learning",
@@ -461,7 +461,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one small artifact that proves weekly progress", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "study-session",
     title: "Study session",
     category: "Learning",
@@ -472,7 +472,7 @@ window.EveryDayToDoTemplates = [
       { title: "Write three recall prompts before ending the session", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "flashcard-review",
     title: "Flashcard review",
     category: "Learning",
@@ -483,7 +483,7 @@ window.EveryDayToDoTemplates = [
       { title: "Add only the most useful new cards from today's study", priority: "low" },
     ],
   },
-+  {
+  {
     id: "exam-preparation",
     title: "Exam preparation",
     category: "Learning",
@@ -494,7 +494,7 @@ window.EveryDayToDoTemplates = [
       { title: "Review mistakes and create a focused next session", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "skill-practice",
     title: "Skill practice",
     category: "Learning",
@@ -505,7 +505,7 @@ window.EveryDayToDoTemplates = [
       { title: "Record feedback and the adjustment for next time", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "concept-review",
     title: "Concept review",
     category: "Learning",
@@ -516,7 +516,7 @@ window.EveryDayToDoTemplates = [
       { title: "Find one gap in the explanation and resolve it", priority: "high" },
     ],
   },
-+  {
+  {
     id: "book-notes",
     title: "Book notes",
     category: "Learning",
@@ -527,7 +527,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one action or question to carry forward", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "language-practice",
     title: "Language practice",
     category: "Learning",
@@ -538,7 +538,7 @@ window.EveryDayToDoTemplates = [
       { title: "Write or record five original sentences using new words", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "teach-back",
     title: "Teach back",
     category: "Learning",
@@ -549,7 +549,7 @@ window.EveryDayToDoTemplates = [
       { title: "Revise notes where the explanation became uncertain", priority: "high" },
     ],
   },
-+  {
+  {
     id: "learning-retrospective",
     title: "Learning retrospective",
     category: "Learning",
@@ -560,7 +560,7 @@ window.EveryDayToDoTemplates = [
       { title: "Adjust next week's study plan using that evidence", priority: "high" },
     ],
   },
-+  {
+  {
     id: "bug-triage",
     title: "Bug triage",
     category: "Engineering",
@@ -571,7 +571,7 @@ window.EveryDayToDoTemplates = [
       { title: "Assign severity, owner, and an investigation next step", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "feature-discovery",
     title: "Feature discovery",
     category: "Engineering",
@@ -582,7 +582,7 @@ window.EveryDayToDoTemplates = [
       { title: "List open decisions and validate assumptions early", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "code-review",
     title: "Code review",
     category: "Engineering",
@@ -593,7 +593,7 @@ window.EveryDayToDoTemplates = [
       { title: "Leave actionable comments with clear rationale", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "release-checklist",
     title: "Release checklist",
     category: "Engineering",
@@ -604,7 +604,7 @@ window.EveryDayToDoTemplates = [
       { title: "Notify stakeholders of timing and expected impact", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "incident-response",
     title: "Incident response",
     category: "Engineering",
@@ -615,7 +615,7 @@ window.EveryDayToDoTemplates = [
       { title: "Record the timeline, evidence, and follow-up actions", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "architecture-decision",
     title: "Architecture decision",
     category: "Engineering",
@@ -626,7 +626,7 @@ window.EveryDayToDoTemplates = [
       { title: "Record the decision, consequences, and review trigger", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "performance-profile",
     title: "Performance profile",
     category: "Engineering",
@@ -637,7 +637,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one change and measure the result against baseline", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "security-review",
     title: "Security review",
     category: "Engineering",
@@ -648,7 +648,7 @@ window.EveryDayToDoTemplates = [
       { title: "Document residual risks and required follow-up", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "test-plan",
     title: "Test plan",
     category: "Engineering",
@@ -659,7 +659,7 @@ window.EveryDayToDoTemplates = [
       { title: "Define test data and release acceptance criteria", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "migration-plan",
     title: "Migration plan",
     category: "Engineering",
@@ -670,7 +670,7 @@ window.EveryDayToDoTemplates = [
       { title: "Plan communication and validation for affected users", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "debugging-session",
     title: "Debugging session",
     category: "Engineering",
@@ -681,7 +681,7 @@ window.EveryDayToDoTemplates = [
       { title: "Add a regression check before closing the investigation", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "technical-debt",
     title: "Technical debt review",
     category: "Engineering",
@@ -692,7 +692,7 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule the smallest high-leverage improvement", priority: "high" },
     ],
   },
-+  {
+  {
     id: "dependency-upgrade",
     title: "Dependency upgrade",
     category: "Engineering",
@@ -703,7 +703,7 @@ window.EveryDayToDoTemplates = [
       { title: "Run targeted tests and document behavior changes", priority: "high" },
     ],
   },
-+  {
+  {
     id: "on-call-handoff",
     title: "On-call handoff",
     category: "Engineering",
@@ -714,7 +714,7 @@ window.EveryDayToDoTemplates = [
       { title: "Confirm escalation paths and next ownership window", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "api-design",
     title: "API design",
     category: "Engineering",
@@ -725,7 +725,7 @@ window.EveryDayToDoTemplates = [
       { title: "Review naming, authentication, and pagination choices", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "one-on-one",
     title: "One-on-one",
     category: "Meetings",
@@ -736,7 +736,7 @@ window.EveryDayToDoTemplates = [
       { title: "Capture commitments and schedule the next follow-up", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "decision-meeting",
     title: "Decision meeting",
     category: "Meetings",
@@ -747,7 +747,7 @@ window.EveryDayToDoTemplates = [
       { title: "Record the decision, rationale, and resulting actions", priority: "high" },
     ],
   },
-+  {
+  {
     id: "brainstorming-workshop",
     title: "Brainstorming workshop",
     category: "Meetings",
@@ -758,7 +758,7 @@ window.EveryDayToDoTemplates = [
       { title: "Group ideas and choose candidates to explore next", priority: "high" },
     ],
   },
-+  {
+  {
     id: "stakeholder-sync",
     title: "Stakeholder sync",
     category: "Meetings",
@@ -769,7 +769,7 @@ window.EveryDayToDoTemplates = [
       { title: "Confirm owners and dates for agreed next steps", priority: "high" },
     ],
   },
-+  {
+  {
     id: "team-retrospective",
     title: "Team retrospective",
     category: "Meetings",
@@ -780,7 +780,7 @@ window.EveryDayToDoTemplates = [
       { title: "Commit to one measurable experiment for the next cycle", priority: "high" },
     ],
   },
-+  {
+  {
     id: "sprint-planning",
     title: "Sprint planning",
     category: "Meetings",
@@ -791,7 +791,7 @@ window.EveryDayToDoTemplates = [
       { title: "Confirm dependencies, owners, and the first actions", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "demo-preparation",
     title: "Demo preparation",
     category: "Meetings",
@@ -802,7 +802,7 @@ window.EveryDayToDoTemplates = [
       { title: "Rehearse the narrative and keep time for questions", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "interview-preparation",
     title: "Interview preparation",
     category: "Meetings",
@@ -813,7 +813,7 @@ window.EveryDayToDoTemplates = [
       { title: "Align scoring criteria with the interview panel", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "conflict-resolution",
     title: "Conflict resolution",
     category: "Meetings",
@@ -824,7 +824,7 @@ window.EveryDayToDoTemplates = [
       { title: "Agree on one next action and a review point", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "meeting-follow-up",
     title: "Meeting follow-up",
     category: "Meetings",
@@ -835,7 +835,7 @@ window.EveryDayToDoTemplates = [
       { title: "Update the shared project record with the outcome", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "email-zero",
     title: "Email zero",
     category: "Admin",
@@ -846,7 +846,7 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule follow-up tasks instead of leaving messages unread", priority: "high" },
     ],
   },
-+  {
+  {
     id: "expense-report",
     title: "Expense report",
     category: "Admin",
@@ -857,7 +857,7 @@ window.EveryDayToDoTemplates = [
       { title: "Submit the report and note its approval status", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "file-cleanup",
     title: "File cleanup",
     category: "Admin",
@@ -868,7 +868,7 @@ window.EveryDayToDoTemplates = [
       { title: "Create a simple home for future incoming files", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "subscription-review",
     title: "Subscription review",
     category: "Admin",
@@ -879,7 +879,7 @@ window.EveryDayToDoTemplates = [
       { title: "Record the remaining costs in a monthly budget", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "password-hygiene",
     title: "Password hygiene",
     category: "Admin",
@@ -890,7 +890,7 @@ window.EveryDayToDoTemplates = [
       { title: "Store recovery codes in a secure location", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "calendar-audit",
     title: "Calendar audit",
     category: "Admin",
@@ -901,7 +901,7 @@ window.EveryDayToDoTemplates = [
       { title: "Decline, shorten, or delegate low-value meetings", priority: "high" },
     ],
   },
-+  {
+  {
     id: "contact-update",
     title: "Contact update",
     category: "Admin",
@@ -912,7 +912,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one relationship that needs a follow-up", priority: "high" },
     ],
   },
-+  {
+  {
     id: "records-archive",
     title: "Records archive",
     category: "Admin",
@@ -923,7 +923,7 @@ window.EveryDayToDoTemplates = [
       { title: "Verify backups and record where the archive lives", priority: "high" },
     ],
   },
-+  {
+  {
     id: "form-submission",
     title: "Form submission",
     category: "Admin",
@@ -934,7 +934,7 @@ window.EveryDayToDoTemplates = [
       { title: "Submit before the deadline and retain confirmation", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "digital-declutter",
     title: "Digital declutter",
     category: "Admin",
@@ -945,7 +945,7 @@ window.EveryDayToDoTemplates = [
       { title: "Set one rule that keeps the area orderly", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "weekly-home-reset",
     title: "Weekly home reset",
     category: "Home",
@@ -956,7 +956,7 @@ window.EveryDayToDoTemplates = [
       { title: "Restock one essential household supply", priority: "low" },
     ],
   },
-+  {
+  {
     id: "grocery-plan",
     title: "Grocery plan",
     category: "Home",
@@ -967,7 +967,7 @@ window.EveryDayToDoTemplates = [
       { title: "Group the list by store section before shopping", priority: "low" },
     ],
   },
-+  {
+  {
     id: "meal-prep",
     title: "Meal prep",
     category: "Home",
@@ -978,7 +978,7 @@ window.EveryDayToDoTemplates = [
       { title: "Label leftovers with contents and date", priority: "low" },
     ],
   },
-+  {
+  {
     id: "laundry-cycle",
     title: "Laundry cycle",
     category: "Home",
@@ -989,7 +989,7 @@ window.EveryDayToDoTemplates = [
       { title: "Fold, hang, and return clean items to their places", priority: "high" },
     ],
   },
-+  {
+  {
     id: "cleaning-sprint",
     title: "Cleaning sprint",
     category: "Home",
@@ -1000,7 +1000,7 @@ window.EveryDayToDoTemplates = [
       { title: "Set a timer and stop when the planned block ends", priority: "low" },
     ],
   },
-+  {
+  {
     id: "home-maintenance",
     title: "Home maintenance",
     category: "Home",
@@ -1011,7 +1011,7 @@ window.EveryDayToDoTemplates = [
       { title: "Record the date and next recommended check", priority: "low" },
     ],
   },
-+  {
+  {
     id: "moving-preparation",
     title: "Moving preparation",
     category: "Home",
@@ -1022,7 +1022,7 @@ window.EveryDayToDoTemplates = [
       { title: "Set aside essentials needed for the first day", priority: "high" },
     ],
   },
-+  {
+  {
     id: "garden-care",
     title: "Garden care",
     category: "Home",
@@ -1033,7 +1033,7 @@ window.EveryDayToDoTemplates = [
       { title: "Note supplies or seasonal tasks for the next visit", priority: "low" },
     ],
   },
-+  {
+  {
     id: "pet-care",
     title: "Pet care",
     category: "Home",
@@ -1044,7 +1044,7 @@ window.EveryDayToDoTemplates = [
       { title: "Update any notes on behavior, health, or routine", priority: "low" },
     ],
   },
-+  {
+  {
     id: "family-schedule",
     title: "Family schedule",
     category: "Home",
@@ -1055,7 +1055,7 @@ window.EveryDayToDoTemplates = [
       { title: "Add buffers for meals, rest, and unexpected changes", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "morning-movement",
     title: "Morning movement",
     category: "Health",
@@ -1066,7 +1066,7 @@ window.EveryDayToDoTemplates = [
       { title: "Note energy, discomfort, or a reason to adjust tomorrow", priority: "low" },
     ],
   },
-+  {
+  {
     id: "strength-training",
     title: "Strength training",
     category: "Health",
@@ -1077,7 +1077,7 @@ window.EveryDayToDoTemplates = [
       { title: "Log performance and any movement adjustments", priority: "low" },
     ],
   },
-+  {
+  {
     id: "cardio-session",
     title: "Cardio session",
     category: "Health",
@@ -1088,7 +1088,7 @@ window.EveryDayToDoTemplates = [
       { title: "Cool down, hydrate, and note recovery needs", priority: "low" },
     ],
   },
-+  {
+  {
     id: "recovery-day",
     title: "Recovery day",
     category: "Health",
@@ -1099,7 +1099,7 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare a realistic plan for tomorrow's energy", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "sleep-reset",
     title: "Sleep reset",
     category: "Health",
@@ -1110,7 +1110,7 @@ window.EveryDayToDoTemplates = [
       { title: "Write tomorrow's first task to reduce bedtime rumination", priority: "low" },
     ],
   },
-+  {
+  {
     id: "hydration-check",
     title: "Hydration check",
     category: "Health",
@@ -1121,7 +1121,7 @@ window.EveryDayToDoTemplates = [
       { title: "Notice whether activity or weather changes your needs", priority: "low" },
     ],
   },
-+  {
+  {
     id: "medical-appointment",
     title: "Medical appointment",
     category: "Health",
@@ -1132,7 +1132,7 @@ window.EveryDayToDoTemplates = [
       { title: "Record follow-up instructions and next appointment needs", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "stress-reset",
     title: "Stress reset",
     category: "Health",
@@ -1143,7 +1143,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one small action within current control", priority: "high" },
     ],
   },
-+  {
+  {
     id: "preventive-care",
     title: "Preventive care",
     category: "Health",
@@ -1154,7 +1154,7 @@ window.EveryDayToDoTemplates = [
       { title: "Save instructions, forms, and appointment details", priority: "low" },
     ],
   },
-+  {
+  {
     id: "walking-break",
     title: "Walking break",
     category: "Health",
@@ -1165,7 +1165,7 @@ window.EveryDayToDoTemplates = [
       { title: "Return with one clear task to resume", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "monthly-budget",
     title: "Monthly budget",
     category: "Finance",
@@ -1176,7 +1176,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one saving or debt action for the month", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "bill-payment",
     title: "Bill payment",
     category: "Finance",
@@ -1187,7 +1187,7 @@ window.EveryDayToDoTemplates = [
       { title: "Save confirmations and update the budget record", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "savings-check",
     title: "Savings check",
     category: "Finance",
@@ -1198,7 +1198,7 @@ window.EveryDayToDoTemplates = [
       { title: "Record progress and any goal date changes", priority: "low" },
     ],
   },
-+  {
+  {
     id: "tax-preparation",
     title: "Tax preparation",
     category: "Finance",
@@ -1209,7 +1209,7 @@ window.EveryDayToDoTemplates = [
       { title: "Note open questions for a qualified tax professional", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "purchase-decision",
     title: "Purchase decision",
     category: "Finance",
@@ -1220,7 +1220,7 @@ window.EveryDayToDoTemplates = [
       { title: "Wait for a planned review point before buying", priority: "low" },
     ],
   },
-+  {
+  {
     id: "insurance-review",
     title: "Insurance review",
     category: "Finance",
@@ -1231,7 +1231,7 @@ window.EveryDayToDoTemplates = [
       { title: "List questions for the insurer or an independent adviser", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "financial-goals",
     title: "Financial goals",
     category: "Finance",
@@ -1242,7 +1242,7 @@ window.EveryDayToDoTemplates = [
       { title: "Set a monthly review reminder and track starting point", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "account-check",
     title: "Account check",
     category: "Finance",
@@ -1253,7 +1253,7 @@ window.EveryDayToDoTemplates = [
       { title: "Update the current cash-flow or budget view", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "idea-capture",
     title: "Idea capture",
     category: "Creative",
@@ -1264,7 +1264,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose whether to develop, save, or discard it later", priority: "low" },
     ],
   },
-+  {
+  {
     id: "creative-session",
     title: "Creative session",
     category: "Creative",
@@ -1275,7 +1275,7 @@ window.EveryDayToDoTemplates = [
       { title: "Create without editing until the planned time ends", priority: "high" },
     ],
   },
-+  {
+  {
     id: "portfolio-update",
     title: "Portfolio update",
     category: "Creative",
@@ -1286,7 +1286,7 @@ window.EveryDayToDoTemplates = [
       { title: "Review presentation quality across desktop and mobile", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "photo-project",
     title: "Photo project",
     category: "Creative",
@@ -1297,7 +1297,7 @@ window.EveryDayToDoTemplates = [
       { title: "Select and organize the strongest images afterward", priority: "high" },
     ],
   },
-+  {
+  {
     id: "music-practice",
     title: "Music practice",
     category: "Creative",
@@ -1308,7 +1308,7 @@ window.EveryDayToDoTemplates = [
       { title: "Record a short sample and note the next adjustment", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "creative-critique",
     title: "Creative critique",
     category: "Creative",
@@ -1319,7 +1319,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one revision that strengthens the core intention", priority: "high" },
     ],
   },
-+  {
+  {
     id: "creative-project-wrap",
     title: "Creative project wrap",
     category: "Creative",
@@ -1330,7 +1330,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose whether to publish, archive, or extend the work", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "trip-outline",
     title: "Trip outline",
     category: "Travel",
@@ -1341,7 +1341,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one flexible priority for each travel day", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "packing-list",
     title: "Packing list",
     category: "Travel",
@@ -1352,7 +1352,7 @@ window.EveryDayToDoTemplates = [
       { title: "Charge devices and keep travel items easy to access", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "travel-day",
     title: "Travel day",
     category: "Travel",
@@ -1363,7 +1363,7 @@ window.EveryDayToDoTemplates = [
       { title: "Leave with a buffer for delays and transitions", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "itinerary-check",
     title: "Itinerary check",
     category: "Travel",
@@ -1374,7 +1374,7 @@ window.EveryDayToDoTemplates = [
       { title: "Leave space for rest, meals, and unexpected discoveries", priority: "low" },
     ],
   },
-+  {
+  {
     id: "return-home",
     title: "Return home",
     category: "Travel",
@@ -1385,7 +1385,7 @@ window.EveryDayToDoTemplates = [
       { title: "Review messages and choose the first workday priority", priority: "high" },
     ],
   },
-+  {
+  {
     id: "local-day-trip",
     title: "Local day trip",
     category: "Travel",
@@ -1396,7 +1396,7 @@ window.EveryDayToDoTemplates = [
       { title: "Leave enough time to return without rushing", priority: "low" },
     ],
   },
-+  {
+  {
     id: "friend-catch-up",
     title: "Friend catch-up",
     category: "Relationships",
@@ -1407,7 +1407,7 @@ window.EveryDayToDoTemplates = [
       { title: "Show up curious and follow through on any commitments", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "thoughtful-message",
     title: "Thoughtful message",
     category: "Relationships",
@@ -1418,7 +1418,7 @@ window.EveryDayToDoTemplates = [
       { title: "Send it and let the connection be enough", priority: "low" },
     ],
   },
-+  {
+  {
     id: "family-check-in",
     title: "Family check-in",
     category: "Relationships",
@@ -1429,7 +1429,7 @@ window.EveryDayToDoTemplates = [
       { title: "Confirm any next steps or practical support", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "shared-planning",
     title: "Shared planning",
     category: "Relationships",
@@ -1440,7 +1440,7 @@ window.EveryDayToDoTemplates = [
       { title: "Confirm the plan in a shared place", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "boundary-conversation",
     title: "Boundary conversation",
     category: "Relationships",
@@ -1451,7 +1451,7 @@ window.EveryDayToDoTemplates = [
       { title: "Agree on the next step or restate the boundary calmly", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "celebration-planning",
     title: "Celebration planning",
     category: "Relationships",
@@ -1462,7 +1462,7 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare a personal note or small detail that adds care", priority: "low" },
     ],
   },
-+  {
+  {
     id: "daily-reflection",
     title: "Daily reflection",
     category: "Reflection",
@@ -1473,7 +1473,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one intention for tomorrow", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "weekly-review",
     title: "Weekly review",
     category: "Reflection",
@@ -1484,7 +1484,7 @@ window.EveryDayToDoTemplates = [
       { title: "Set next week's priorities from that evidence", priority: "high" },
     ],
   },
-+  {
+  {
     id: "decision-journal",
     title: "Decision journal",
     category: "Reflection",
@@ -1495,7 +1495,7 @@ window.EveryDayToDoTemplates = [
       { title: "Set a date to review what actually happened", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "month-end-reflection",
     title: "Month-end reflection",
     category: "Reflection",
@@ -1506,7 +1506,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one focus to carry into the next month", priority: "high" },
     ],
   },
-+  {
+  {
     id: "gratitude-practice",
     title: "Gratitude practice",
     category: "Reflection",
@@ -1517,7 +1517,7 @@ window.EveryDayToDoTemplates = [
       { title: "Send thanks or preserve the note for later", priority: "low" },
     ],
   },
-+  {
+  {
     id: "project-retrospective",
     title: "Project retrospective",
     category: "Reflection",
@@ -1528,7 +1528,7 @@ window.EveryDayToDoTemplates = [
       { title: "Turn the top lesson into a change for the next project", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "values-check",
     title: "Values check",
     category: "Reflection",
@@ -1539,7 +1539,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one small realignment for this week", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "habit-audit",
     title: "Habit audit",
     category: "Reflection",
@@ -1550,7 +1550,7 @@ window.EveryDayToDoTemplates = [
       { title: "Adjust the cue or environment for the next attempt", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "capture-inbox",
     title: "Capture inbox",
     category: "Organization",
@@ -1561,7 +1561,7 @@ window.EveryDayToDoTemplates = [
       { title: "Delete duplicates and defer items without a current purpose", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "next-actions",
     title: "Next actions",
     category: "Organization",
@@ -1572,7 +1572,7 @@ window.EveryDayToDoTemplates = [
       { title: "Place it on the right date or context list", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "workspace-setup",
     title: "Workspace setup",
     category: "Organization",
@@ -1583,7 +1583,7 @@ window.EveryDayToDoTemplates = [
       { title: "Set one environmental condition that supports focus", priority: "low" },
     ],
   },
-+  {
+  {
     id: "goal-breakdown",
     title: "Goal breakdown",
     category: "Organization",
@@ -1594,7 +1594,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose the first milestone action to schedule", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "project-dashboard",
     title: "Project dashboard",
     category: "Organization",
@@ -1605,7 +1605,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose a cadence for updating the dashboard", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "weekly-reset",
     title: "Weekly reset",
     category: "Organization",
@@ -1616,7 +1616,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose the few outcomes that deserve next week's focus", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "someday-list",
     title: "Someday list",
     category: "Organization",
@@ -1627,7 +1627,7 @@ window.EveryDayToDoTemplates = [
       { title: "Review whether any idea should become an active project", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "decision-tracker",
     title: "Decision tracker",
     category: "Organization",
@@ -1638,7 +1638,7 @@ window.EveryDayToDoTemplates = [
       { title: "Archive resolved choices with their rationale", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "assignment-plan",
     title: "Assignment plan",
     category: "Academic",
@@ -1649,7 +1649,7 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule the first work block before leaving the brief", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "thesis-session",
     title: "Thesis session",
     category: "Academic",
@@ -1660,7 +1660,7 @@ window.EveryDayToDoTemplates = [
       { title: "Record citations, open questions, and the next entry point", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "lecture-preparation",
     title: "Lecture preparation",
     category: "Academic",
@@ -1671,7 +1671,7 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare a note structure for examples and key terms", priority: "low" },
     ],
   },
-+  {
+  {
     id: "seminar-reading",
     title: "Seminar reading",
     category: "Academic",
@@ -1682,7 +1682,7 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare a concise discussion contribution", priority: "high" },
     ],
   },
-+  {
+  {
     id: "group-project",
     title: "Group project",
     category: "Academic",
@@ -1693,7 +1693,7 @@ window.EveryDayToDoTemplates = [
       { title: "Set a check-in date before the next deadline", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "lab-session",
     title: "Lab session",
     category: "Academic",
@@ -1704,7 +1704,7 @@ window.EveryDayToDoTemplates = [
       { title: "Record deviations and observations during the session", priority: "high" },
     ],
   },
-+  {
+  {
     id: "academic-presentation",
     title: "Academic presentation",
     category: "Academic",
@@ -1715,7 +1715,7 @@ window.EveryDayToDoTemplates = [
       { title: "Practice timing and prepare for likely questions", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "research-proposal",
     title: "Research proposal",
     category: "Academic",
@@ -1726,7 +1726,7 @@ window.EveryDayToDoTemplates = [
       { title: "Request feedback on the most uncertain assumption", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "citation-cleanup",
     title: "Citation cleanup",
     category: "Academic",
@@ -1737,7 +1737,7 @@ window.EveryDayToDoTemplates = [
       { title: "Verify links, page numbers, and source metadata", priority: "high" },
     ],
   },
-+  {
+  {
     id: "exam-week",
     title: "Exam week",
     category: "Academic",
@@ -1748,7 +1748,7 @@ window.EveryDayToDoTemplates = [
       { title: "Protect sleep, meals, and short breaks in the schedule", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "resume-refresh",
     title: "Resume refresh",
     category: "Career",
@@ -1759,7 +1759,7 @@ window.EveryDayToDoTemplates = [
       { title: "Check formatting, links, and contact details", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "career-conversation",
     title: "Career conversation",
     category: "Career",
@@ -1770,7 +1770,7 @@ window.EveryDayToDoTemplates = [
       { title: "Leave with one action, connection, or follow-up date", priority: "high" },
     ],
   },
-+  {
+  {
     id: "job-search",
     title: "Job search",
     category: "Career",
@@ -1781,7 +1781,7 @@ window.EveryDayToDoTemplates = [
       { title: "Track applications, contacts, and follow-up dates", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "networking-outreach",
     title: "Networking outreach",
     category: "Career",
@@ -1792,7 +1792,7 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare one or two thoughtful questions for the conversation", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "interview-follow-up",
     title: "Interview follow-up",
     category: "Career",
@@ -1803,7 +1803,7 @@ window.EveryDayToDoTemplates = [
       { title: "Note any promised material and the follow-up timeline", priority: "high" },
     ],
   },
-+  {
+  {
     id: "skills-portfolio",
     title: "Skills portfolio",
     category: "Career",
@@ -1814,7 +1814,7 @@ window.EveryDayToDoTemplates = [
       { title: "Identify one missing skill to develop next", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "career-planning",
     title: "Career planning",
     category: "Career",
@@ -1825,7 +1825,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one development action for this quarter", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "promotion-packet",
     title: "Promotion packet",
     category: "Career",
@@ -1836,7 +1836,7 @@ window.EveryDayToDoTemplates = [
       { title: "Draft a concise growth narrative and next-step request", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "event-planning",
     title: "Event planning",
     category: "Events",
@@ -1847,7 +1847,7 @@ window.EveryDayToDoTemplates = [
       { title: "Send invitations and track needed responses", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "hosting-guests",
     title: "Hosting guests",
     category: "Events",
@@ -1858,7 +1858,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one simple activity or meal to share", priority: "low" },
     ],
   },
-+  {
+  {
     id: "volunteer-day",
     title: "Volunteer day",
     category: "Events",
@@ -1869,7 +1869,7 @@ window.EveryDayToDoTemplates = [
       { title: "Plan travel and a short reflection after the activity", priority: "low" },
     ],
   },
-+  {
+  {
     id: "birthday-plan",
     title: "Birthday plan",
     category: "Events",
@@ -1880,7 +1880,7 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare a personal note or gift in advance", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "workshop-attendance",
     title: "Workshop attendance",
     category: "Events",
@@ -1891,7 +1891,7 @@ window.EveryDayToDoTemplates = [
       { title: "Capture follow-up actions and useful contacts afterward", priority: "high" },
     ],
   },
-+  {
+  {
     id: "dinner-party",
     title: "Dinner party",
     category: "Events",
@@ -1902,7 +1902,7 @@ window.EveryDayToDoTemplates = [
       { title: "Set the table and create a simple cleanup plan", priority: "low" },
     ],
   },
-+  {
+  {
     id: "community-meetup",
     title: "Community meetup",
     category: "Events",
@@ -1913,7 +1913,7 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare a simple welcome and closing structure", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "seasonal-planning",
     title: "Seasonal planning",
     category: "Events",
@@ -1924,7 +1924,7 @@ window.EveryDayToDoTemplates = [
       { title: "Complete the earliest time-sensitive booking or purchase", priority: "high" },
     ],
   },
-+  {
+  {
     id: "photo-backup",
     title: "Photo backup",
     category: "Digital",
@@ -1935,7 +1935,7 @@ window.EveryDayToDoTemplates = [
       { title: "Delete obvious duplicates and label one recent album", priority: "low" },
     ],
   },
-+  {
+  {
     id: "device-maintenance",
     title: "Device maintenance",
     category: "Digital",
@@ -1946,7 +1946,7 @@ window.EveryDayToDoTemplates = [
       { title: "Remove unused apps and restart the device", priority: "low" },
     ],
   },
-+  {
+  {
     id: "browser-cleanup",
     title: "Browser cleanup",
     category: "Digital",
@@ -1957,7 +1957,7 @@ window.EveryDayToDoTemplates = [
       { title: "Organize useful links into a small bookmark structure", priority: "low" },
     ],
   },
-+  {
+  {
     id: "file-backup",
     title: "File backup",
     category: "Digital",
@@ -1968,7 +1968,7 @@ window.EveryDayToDoTemplates = [
       { title: "Test restoring one noncritical file from the backup", priority: "high" },
     ],
   },
-+  {
+  {
     id: "notification-audit",
     title: "Notification audit",
     category: "Digital",
@@ -1979,7 +1979,7 @@ window.EveryDayToDoTemplates = [
       { title: "Keep only critical people, deadlines, and safety alerts", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "privacy-check",
     title: "Privacy check",
     category: "Digital",
@@ -1990,7 +1990,7 @@ window.EveryDayToDoTemplates = [
       { title: "Check account recovery methods and active sessions", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "digital-notes-review",
     title: "Digital notes review",
     category: "Digital",
@@ -2001,7 +2001,7 @@ window.EveryDayToDoTemplates = [
       { title: "Archive duplicates and outdated fragments", priority: "low" },
     ],
   },
-+  {
+  {
     id: "content-queue",
     title: "Content queue",
     category: "Digital",
@@ -2012,7 +2012,7 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule one item to read, watch, or delete this week", priority: "low" },
     ],
   },
-+  {
+  {
     id: "software-license-review",
     title: "Software license review",
     category: "Digital",
@@ -2023,7 +2023,7 @@ window.EveryDayToDoTemplates = [
       { title: "Cancel unused seats or document renewal decisions", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "screen-time-plan",
     title: "Screen time plan",
     category: "Digital",
@@ -2034,7 +2034,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose an offline alternative for the recovered time", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "hobby-time",
     title: "Hobby time",
     category: "Personal",
@@ -2045,7 +2045,7 @@ window.EveryDayToDoTemplates = [
       { title: "Keep the time free from unrelated obligations", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "weekend-reset",
     title: "Weekend reset",
     category: "Personal",
@@ -2056,7 +2056,7 @@ window.EveryDayToDoTemplates = [
       { title: "Protect time for rest before the week begins", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "self-care-plan",
     title: "Self-care plan",
     category: "Personal",
@@ -2067,7 +2067,7 @@ window.EveryDayToDoTemplates = [
       { title: "Remove one avoidable source of pressure for today", priority: "medium" },
     ],
   },
-+  {
+  {
     id: "personal-goal-check",
     title: "Personal goal check",
     category: "Personal",
@@ -2078,7 +2078,7 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one next action small enough for this week", priority: "high" },
     ],
   },
-+  {
+  {
     id: "life-appointment",
     title: "Life appointment",
     category: "Personal",
@@ -2087,6 +2087,17 @@ window.EveryDayToDoTemplates = [
       { title: "Confirm time, location, documents, and travel needs", priority: "high" },
       { title: "Write the questions or outcomes that matter most", priority: "medium" },
       { title: "Plan a follow-up action before the appointment happens", priority: "medium" },
+    ],
+  },
+  {
+    id: "personal-project",
+    title: "Personal project",
+    category: "Personal",
+    description: "Move a meaningful personal project forward in one session.",
+    tasks: [
+      { title: "Choose the next deliverable instead of the whole project", priority: "high" },
+      { title: "Prepare materials and reserve a focused work block", priority: "medium" },
+      { title: "Record progress and define the next entry point", priority: "medium" },
     ],
   },
 ];
