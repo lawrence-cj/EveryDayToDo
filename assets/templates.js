@@ -1583,4 +1583,15 @@ window.EveryDayToDoTemplates = [
       { title: "Set one environmental condition that supports focus", priority: "low" },
     ],
   },
++  {
+    id: "goal-breakdown",
+    title: "Goal breakdown",
+    category: "Organization",
+    description: "Break a broad goal into a sequence that can start today.",
+    tasks: [
+      { title: "State the finished outcome and the reason it matters", priority: "high" },
+      { title: "List milestones and dependencies in rough order", priority: "high" },
+      { title: "Choose the first milestone action to schedule", priority: "medium" },
+    ],
+  },
 ];
