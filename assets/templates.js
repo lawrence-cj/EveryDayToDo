@@ -1088,4 +1088,15 @@ window.EveryDayToDoTemplates = [
       { title: "Cool down, hydrate, and note recovery needs", priority: "low" },
     ],
   },
++  {
+    id: "recovery-day",
+    title: "Recovery day",
+    category: "Health",
+    description: "Support recovery without treating rest as an afterthought.",
+    tasks: [
+      { title: "Reduce nonessential demands and protect a slower pace", priority: "medium" },
+      { title: "Choose gentle movement, stretching, or time outdoors", priority: "low" },
+      { title: "Prepare a realistic plan for tomorrow's energy", priority: "medium" },
+    ],
+  },
 ];
