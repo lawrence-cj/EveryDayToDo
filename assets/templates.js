@@ -1671,4 +1671,15 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare a note structure for examples and key terms", priority: "low" },
     ],
   },
++  {
+    id: "seminar-reading",
+    title: "Seminar reading",
+    category: "Academic",
+    description: "Read an academic text with discussion in mind.",
+    tasks: [
+      { title: "Identify the main claim, evidence, and method", priority: "high" },
+      { title: "Mark one strong point and one question or limitation", priority: "medium" },
+      { title: "Prepare a concise discussion contribution", priority: "high" },
+    ],
+  },
 ];
