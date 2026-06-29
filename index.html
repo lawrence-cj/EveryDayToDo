@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0f766e">
+    <title>EveryDayToDo</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Personal planner</p>
+          <h1>EveryDayToDo</h1>
+        </div>
+        <button class="text-button" id="clear-completed" type="button">Clear completed</button>
+      </header>
+
+      <section class="overview" aria-labelledby="today-heading">
+        <div>
+          <p class="date-label" id="today-date"></p>
+          <h2 id="today-heading">Plan the work that matters today.</h2>
+        </div>
+        <div class="progress" aria-label="Today's completion progress">
+          <strong id="progress-count">0/0</strong>
+          <span>completed</span>
+        </div>
+      </section>
+
+      <section class="workspace" aria-label="Task workspace">
+        <aside class="sidebar">
+          <nav class="filters" aria-label="Task filters">
+            <button class="filter is-active" data-filter="today" type="button">Today <span id="today-total">0</span></button>
+            <button class="filter" data-filter="upcoming" type="button">Upcoming <span id="upcoming-total">0</span></button>
+            <button class="filter" data-filter="all" type="button">All tasks <span id="all-total">0</span></button>
+            <button class="filter" data-filter="completed" type="button">Completed <span id="completed-total">0</span></button>
+          </nav>
+
+          <div class="legend" aria-label="Priority legend">
+            <p>Priority</p>
+            <span><i class="priority-dot high"></i>High</span>
+            <span><i class="priority-dot medium"></i>Medium</span>
+            <span><i class="priority-dot low"></i>Low</span>
+          </div>
+        </aside>
+
+        <div class="task-area">
+          <form class="new-task" id="task-form">
+            <label class="sr-only" for="task-title">New task</label>
+            <input id="task-title" name="title" maxlength="120" placeholder="Add a task" required autocomplete="off">
+            <label class="sr-only" for="task-date">Due date</label>
+            <input id="task-date" name="date" type="date" required>
+            <label class="sr-only" for="task-priority">Priority</label>
+            <select id="task-priority" name="priority" aria-label="Priority">
+              <option value="medium">Medium</option>
+              <option value="high">High</option>
+              <option value="low">Low</option>
+            </select>
+            <button class="primary-button" type="submit">Add task</button>
+          </form>
+
+          <div class="list-header">
+            <h2 id="list-title">Today</h2>
+            <p id="list-summary"></p>
+          </div>
+          <ul class="task-list" id="task-list" aria-live="polite"></ul>
+          <div class="empty-state" id="empty-state" hidden>
+            <h3>Nothing here yet</h3>
+            <p>Add a task above to start your plan.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <template id="task-template">
+      <li class="task-item">
+        <label class="task-check">
+          <input class="task-toggle" type="checkbox">
+          <span class="checkmark" aria-hidden="true"></span>
+          <span class="sr-only">Mark task complete</span>
+        </label>
+        <div class="task-content">
+          <p class="task-title"></p>
+          <div class="task-meta">
+            <time class="task-date"></time>
+            <span class="task-priority"></span>
+          </div>
+        </div>
+        <button class="delete-button" type="button" title="Delete task" aria-label="Delete task">x</button>
+      </li>
+    </template>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
