@@ -1847,4 +1847,15 @@ window.EveryDayToDoTemplates = [
       { title: "Send invitations and track needed responses", priority: "medium" },
     ],
   },
++  {
+    id: "hosting-guests",
+    title: "Hosting guests",
+    category: "Events",
+    description: "Prepare a welcoming visit without overcomplicating it.",
+    tasks: [
+      { title: "Confirm arrival details, needs, and time together", priority: "medium" },
+      { title: "Prepare sleeping, food, and shared-space essentials", priority: "high" },
+      { title: "Choose one simple activity or meal to share", priority: "low" },
+    ],
+  },
 ];
