@@ -142,4 +142,15 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule the first milestone and next review", priority: "medium" },
     ],
   },
++  {
+    id: "client-delivery",
+    title: "Client delivery",
+    category: "Work",
+    description: "Prepare a dependable handoff for an external partner.",
+    tasks: [
+      { title: "Verify deliverables against the agreed acceptance criteria", priority: "high" },
+      { title: "Package links, files, and concise usage notes", priority: "high" },
+      { title: "Send the handoff with a clear feedback deadline", priority: "medium" },
+    ],
+  },
 ];
