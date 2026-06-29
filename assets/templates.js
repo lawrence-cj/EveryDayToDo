@@ -1264,4 +1264,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose whether to develop, save, or discard it later", priority: "low" },
     ],
   },
++  {
+    id: "creative-session",
+    title: "Creative session",
+    category: "Creative",
+    description: "Make protected time for a creative practice.",
+    tasks: [
+      { title: "Choose a small creative outcome for the session", priority: "medium" },
+      { title: "Prepare materials and remove obvious distractions", priority: "low" },
+      { title: "Create without editing until the planned time ends", priority: "high" },
+    ],
+  },
 ];
