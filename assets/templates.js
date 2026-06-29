@@ -692,4 +692,15 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule the smallest high-leverage improvement", priority: "high" },
     ],
   },
++  {
+    id: "dependency-upgrade",
+    title: "Dependency upgrade",
+    category: "Engineering",
+    description: "Upgrade a dependency with clear compatibility checks.",
+    tasks: [
+      { title: "Review release notes and breaking changes", priority: "high" },
+      { title: "Update the dependency in an isolated branch or environment", priority: "medium" },
+      { title: "Run targeted tests and document behavior changes", priority: "high" },
+    ],
+  },
 ];
