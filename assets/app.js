@@ -219,13 +219,16 @@ function renderTemplates() {
   const cards = templates.map((template) => {
     const button = document.createElement("button");
     const title = document.createElement("strong");
+    const category = document.createElement("small");
     const description = document.createElement("span");
 
     button.className = "template-card";
     button.type = "button";
     title.textContent = template.title;
+    category.className = "template-category";
+    category.textContent = template.category || "General";
     description.textContent = template.description;
-    button.append(title, description);
+    button.append(title, category, description);
     button.addEventListener("click", () => applyTemplate(template));
     return button;
   });
