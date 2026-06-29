@@ -1968,4 +1968,15 @@ window.EveryDayToDoTemplates = [
       { title: "Test restoring one noncritical file from the backup", priority: "high" },
     ],
   },
++  {
+    id: "notification-audit",
+    title: "Notification audit",
+    category: "Digital",
+    description: "Keep only alerts that deserve immediate attention.",
+    tasks: [
+      { title: "Review notification settings on primary devices", priority: "medium" },
+      { title: "Disable alerts that do not require prompt action", priority: "high" },
+      { title: "Keep only critical people, deadlines, and safety alerts", priority: "medium" },
+    ],
+  },
 ];
