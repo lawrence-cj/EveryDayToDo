@@ -351,4 +351,15 @@ window.EveryDayToDoTemplates = [
       { title: "List assumptions to test before collecting evidence", priority: "medium" },
     ],
   },
++  {
+    id: "literature-scan",
+    title: "Literature scan",
+    category: "Research",
+    description: "Build a quick, credible map of existing knowledge.",
+    tasks: [
+      { title: "Define search terms, date range, and source standards", priority: "medium" },
+      { title: "Collect the most relevant primary sources", priority: "high" },
+      { title: "Summarize agreements, disagreements, and gaps", priority: "high" },
+    ],
+  },
 ];
