@@ -1517,4 +1517,15 @@ window.EveryDayToDoTemplates = [
       { title: "Send thanks or preserve the note for later", priority: "low" },
     ],
   },
++  {
+    id: "project-retrospective",
+    title: "Project retrospective",
+    category: "Reflection",
+    description: "Capture lessons from a completed project while fresh.",
+    tasks: [
+      { title: "Review goals, outcomes, and significant turning points", priority: "high" },
+      { title: "Identify practices that helped and friction that slowed work", priority: "high" },
+      { title: "Turn the top lesson into a change for the next project", priority: "medium" },
+    ],
+  },
 ];
