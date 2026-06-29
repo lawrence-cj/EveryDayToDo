@@ -1275,4 +1275,15 @@ window.EveryDayToDoTemplates = [
       { title: "Create without editing until the planned time ends", priority: "high" },
     ],
   },
++  {
+    id: "portfolio-update",
+    title: "Portfolio update",
+    category: "Creative",
+    description: "Keep a portfolio aligned with current best work.",
+    tasks: [
+      { title: "Choose one piece that demonstrates a relevant strength", priority: "high" },
+      { title: "Write context, role, process, and outcome clearly", priority: "high" },
+      { title: "Review presentation quality across desktop and mobile", priority: "medium" },
+    ],
+  },
 ];
