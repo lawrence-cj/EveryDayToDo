@@ -1407,4 +1407,15 @@ window.EveryDayToDoTemplates = [
       { title: "Show up curious and follow through on any commitments", priority: "medium" },
     ],
   },
++  {
+    id: "thoughtful-message",
+    title: "Thoughtful message",
+    category: "Relationships",
+    description: "Send a message that communicates care or appreciation.",
+    tasks: [
+      { title: "Name the person and the specific reason to reach out", priority: "medium" },
+      { title: "Write a short, personal message without overediting", priority: "high" },
+      { title: "Send it and let the connection be enough", priority: "low" },
+    ],
+  },
 ];
