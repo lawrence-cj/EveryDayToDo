@@ -868,4 +868,15 @@ window.EveryDayToDoTemplates = [
       { title: "Create a simple home for future incoming files", priority: "medium" },
     ],
   },
++  {
+    id: "subscription-review",
+    title: "Subscription review",
+    category: "Admin",
+    description: "Keep recurring services aligned with actual use.",
+    tasks: [
+      { title: "List active subscriptions and their renewal dates", priority: "medium" },
+      { title: "Cancel or downgrade services that no longer add value", priority: "high" },
+      { title: "Record the remaining costs in a monthly budget", priority: "medium" },
+    ],
+  },
 ];
