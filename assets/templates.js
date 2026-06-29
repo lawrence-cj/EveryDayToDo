@@ -1242,4 +1242,15 @@ window.EveryDayToDoTemplates = [
       { title: "Set a monthly review reminder and track starting point", priority: "medium" },
     ],
   },
++  {
+    id: "account-check",
+    title: "Account check",
+    category: "Finance",
+    description: "Review balances and recent activity for accuracy.",
+    tasks: [
+      { title: "Check account balances and recent transactions", priority: "high" },
+      { title: "Flag unfamiliar activity and verify recurring charges", priority: "high" },
+      { title: "Update the current cash-flow or budget view", priority: "medium" },
+    ],
+  },
 ];
