@@ -659,4 +659,15 @@ window.EveryDayToDoTemplates = [
       { title: "Define test data and release acceptance criteria", priority: "medium" },
     ],
   },
++  {
+    id: "migration-plan",
+    title: "Migration plan",
+    category: "Engineering",
+    description: "Move users or data safely from one state to another.",
+    tasks: [
+      { title: "Map source state, target state, and compatibility needs", priority: "high" },
+      { title: "Define rollout phases, backups, and rollback criteria", priority: "high" },
+      { title: "Plan communication and validation for affected users", priority: "medium" },
+    ],
+  },
 ];
