@@ -549,4 +549,15 @@ window.EveryDayToDoTemplates = [
       { title: "Revise notes where the explanation became uncertain", priority: "high" },
     ],
   },
++  {
+    id: "learning-retrospective",
+    title: "Learning retrospective",
+    category: "Learning",
+    description: "Improve the learning process, not just the next topic.",
+    tasks: [
+      { title: "Review what produced the strongest retention this week", priority: "medium" },
+      { title: "Identify one source of friction or avoidance", priority: "medium" },
+      { title: "Adjust next week's study plan using that evidence", priority: "high" },
+    ],
+  },
 ];
