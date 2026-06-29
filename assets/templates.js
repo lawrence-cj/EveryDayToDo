@@ -802,4 +802,15 @@ window.EveryDayToDoTemplates = [
       { title: "Rehearse the narrative and keep time for questions", priority: "medium" },
     ],
   },
++  {
+    id: "interview-preparation",
+    title: "Interview preparation",
+    category: "Meetings",
+    description: "Prepare a structured, fair conversation with a candidate.",
+    tasks: [
+      { title: "Review the role requirements and candidate background", priority: "high" },
+      { title: "Choose questions that reveal relevant evidence", priority: "high" },
+      { title: "Align scoring criteria with the interview panel", priority: "medium" },
+    ],
+  },
 ];
