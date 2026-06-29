@@ -747,4 +747,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record the decision, rationale, and resulting actions", priority: "high" },
     ],
   },
++  {
+    id: "brainstorming-workshop",
+    title: "Brainstorming workshop",
+    category: "Meetings",
+    description: "Generate options without losing structure or inclusion.",
+    tasks: [
+      { title: "Define the problem, constraints, and desired output", priority: "high" },
+      { title: "Use timed individual idea generation before discussion", priority: "medium" },
+      { title: "Group ideas and choose candidates to explore next", priority: "high" },
+    ],
+  },
 ];
