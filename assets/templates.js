@@ -21,4 +21,15 @@ window.EveryDayToDoTemplates = [
       { title: "Capture the next action before ending the session", priority: "medium" },
     ],
   },
++  {
+    id: "priority-triage",
+    title: "Priority triage",
+    category: "Focus",
+    description: "Separate essential work from attractive distractions.",
+    tasks: [
+      { title: "List every open commitment competing for attention", priority: "high" },
+      { title: "Choose one must-finish task and two supporting tasks", priority: "high" },
+      { title: "Defer or delete work that does not matter this week", priority: "medium" },
+    ],
+  },
 ];
