@@ -1748,4 +1748,15 @@ window.EveryDayToDoTemplates = [
       { title: "Protect sleep, meals, and short breaks in the schedule", priority: "medium" },
     ],
   },
++  {
+    id: "resume-refresh",
+    title: "Resume refresh",
+    category: "Career",
+    description: "Update a resume with recent, evidence-based achievements.",
+    tasks: [
+      { title: "Add current role, responsibilities, and measurable outcomes", priority: "high" },
+      { title: "Tailor the summary and strongest bullets to target roles", priority: "high" },
+      { title: "Check formatting, links, and contact details", priority: "medium" },
+    ],
+  },
 ];
