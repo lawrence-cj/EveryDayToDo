@@ -2056,4 +2056,15 @@ window.EveryDayToDoTemplates = [
       { title: "Protect time for rest before the week begins", priority: "medium" },
     ],
   },
++  {
+    id: "self-care-plan",
+    title: "Self-care plan",
+    category: "Personal",
+    description: "Choose a small act of care that fits current capacity.",
+    tasks: [
+      { title: "Notice what would be most supportive right now", priority: "low" },
+      { title: "Schedule a basic care activity without multitasking", priority: "medium" },
+      { title: "Remove one avoidable source of pressure for today", priority: "medium" },
+    ],
+  },
 ];
