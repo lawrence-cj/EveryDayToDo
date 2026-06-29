@@ -1198,4 +1198,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record progress and any goal date changes", priority: "low" },
     ],
   },
++  {
+    id: "tax-preparation",
+    title: "Tax preparation",
+    category: "Finance",
+    description: "Gather the records needed before filing time arrives.",
+    tasks: [
+      { title: "List required income, deduction, and account documents", priority: "high" },
+      { title: "Collect and organize statements in one secure location", priority: "high" },
+      { title: "Note open questions for a qualified tax professional", priority: "medium" },
+    ],
+  },
 ];
