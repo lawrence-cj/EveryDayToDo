@@ -1770,4 +1770,15 @@ window.EveryDayToDoTemplates = [
       { title: "Leave with one action, connection, or follow-up date", priority: "high" },
     ],
   },
++  {
+    id: "job-search",
+    title: "Job search",
+    category: "Career",
+    description: "Run a focused job search without losing track of leads.",
+    tasks: [
+      { title: "Choose target roles, organizations, and search criteria", priority: "high" },
+      { title: "Review openings and tailor materials for the best fit", priority: "high" },
+      { title: "Track applications, contacts, and follow-up dates", priority: "medium" },
+    ],
+  },
 ];
