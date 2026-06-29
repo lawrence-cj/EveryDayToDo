@@ -87,4 +87,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record what changed and identify the next smallest step", priority: "medium" },
     ],
   },
++  {
+    id: "inbox-boundary",
+    title: "Inbox boundary",
+    category: "Focus",
+    description: "Process messages without letting them run the day.",
+    tasks: [
+      { title: "Set a fifteen-minute limit for inbox processing", priority: "medium" },
+      { title: "Reply, defer, delegate, or archive each message once", priority: "high" },
+      { title: "Turn non-email work into scheduled tasks", priority: "medium" },
+    ],
+  },
 ];
