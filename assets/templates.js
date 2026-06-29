@@ -1528,4 +1528,15 @@ window.EveryDayToDoTemplates = [
       { title: "Turn the top lesson into a change for the next project", priority: "medium" },
     ],
   },
++  {
+    id: "values-check",
+    title: "Values check",
+    category: "Reflection",
+    description: "Compare recent choices with what matters most.",
+    tasks: [
+      { title: "Name the values you want current work to reflect", priority: "medium" },
+      { title: "Review one recent choice through that lens", priority: "high" },
+      { title: "Choose one small realignment for this week", priority: "medium" },
+    ],
+  },
 ];
