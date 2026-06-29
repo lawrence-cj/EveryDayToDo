@@ -582,4 +582,15 @@ window.EveryDayToDoTemplates = [
       { title: "List open decisions and validate assumptions early", priority: "medium" },
     ],
   },
++  {
+    id: "code-review",
+    title: "Code review",
+    category: "Engineering",
+    description: "Review a change for correctness, clarity, and maintainability.",
+    tasks: [
+      { title: "Read the change against its intended user behavior", priority: "high" },
+      { title: "Check error paths, tests, and backward compatibility", priority: "high" },
+      { title: "Leave actionable comments with clear rationale", priority: "medium" },
+    ],
+  },
 ];
