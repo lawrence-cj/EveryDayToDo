@@ -1891,4 +1891,15 @@ window.EveryDayToDoTemplates = [
       { title: "Capture follow-up actions and useful contacts afterward", priority: "high" },
     ],
   },
++  {
+    id: "dinner-party",
+    title: "Dinner party",
+    category: "Events",
+    description: "Prepare a relaxed shared meal with manageable effort.",
+    tasks: [
+      { title: "Confirm guests, dietary needs, and serving time", priority: "high" },
+      { title: "Plan a menu with as much advance preparation as possible", priority: "medium" },
+      { title: "Set the table and create a simple cleanup plan", priority: "low" },
+    ],
+  },
 ];
