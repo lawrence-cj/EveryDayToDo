@@ -637,4 +637,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one change and measure the result against baseline", priority: "medium" },
     ],
   },
++  {
+    id: "security-review",
+    title: "Security review",
+    category: "Engineering",
+    description: "Review a change for common risk before release.",
+    tasks: [
+      { title: "Identify data, permissions, and trust boundaries involved", priority: "high" },
+      { title: "Check input validation, secret handling, and access control", priority: "high" },
+      { title: "Document residual risks and required follow-up", priority: "medium" },
+    ],
+  },
 ];
