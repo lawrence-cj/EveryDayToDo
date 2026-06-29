@@ -483,4 +483,15 @@ window.EveryDayToDoTemplates = [
       { title: "Add only the most useful new cards from today's study", priority: "low" },
     ],
   },
++  {
+    id: "exam-preparation",
+    title: "Exam preparation",
+    category: "Learning",
+    description: "Prepare for an assessment with targeted practice.",
+    tasks: [
+      { title: "List exam topics and rate confidence for each", priority: "high" },
+      { title: "Practice the lowest-confidence topic under time limits", priority: "high" },
+      { title: "Review mistakes and create a focused next session", priority: "medium" },
+    ],
+  },
 ];
