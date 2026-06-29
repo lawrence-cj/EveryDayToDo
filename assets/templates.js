@@ -2012,4 +2012,15 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule one item to read, watch, or delete this week", priority: "low" },
     ],
   },
++  {
+    id: "software-license-review",
+    title: "Software license review",
+    category: "Digital",
+    description: "Track software access, renewal dates, and ownership.",
+    tasks: [
+      { title: "List active software services and renewal dates", priority: "medium" },
+      { title: "Verify license owners, payment methods, and access needs", priority: "high" },
+      { title: "Cancel unused seats or document renewal decisions", priority: "medium" },
+    ],
+  },
 ];
