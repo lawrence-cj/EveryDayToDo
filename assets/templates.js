@@ -461,4 +461,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one small artifact that proves weekly progress", priority: "medium" },
     ],
   },
++  {
+    id: "study-session",
+    title: "Study session",
+    category: "Learning",
+    description: "Use a focused block to learn and recall new material.",
+    tasks: [
+      { title: "Set one concrete learning objective for this session", priority: "high" },
+      { title: "Study actively by solving, explaining, or practicing", priority: "high" },
+      { title: "Write three recall prompts before ending the session", priority: "medium" },
+    ],
+  },
 ];
