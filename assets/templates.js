@@ -934,4 +934,15 @@ window.EveryDayToDoTemplates = [
       { title: "Submit before the deadline and retain confirmation", priority: "medium" },
     ],
   },
++  {
+    id: "digital-declutter",
+    title: "Digital declutter",
+    category: "Admin",
+    description: "Reduce digital noise in one small, controlled area.",
+    tasks: [
+      { title: "Choose one app, folder, or notification source to clean", priority: "low" },
+      { title: "Remove duplicates, unused items, and distracting alerts", priority: "medium" },
+      { title: "Set one rule that keeps the area orderly", priority: "medium" },
+    ],
+  },
 ];
