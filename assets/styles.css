@@ -473,12 +473,22 @@ h1 {
 }
 
 .template-card strong,
+.template-card small,
 .template-card span {
   display: block;
 }
 
 .template-card strong {
   font-size: 0.96rem;
+}
+
+.template-card .template-category {
+  margin-top: 7px;
+  color: #0b665f;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .template-card span {
