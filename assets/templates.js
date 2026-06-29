@@ -1880,4 +1880,15 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare a personal note or gift in advance", priority: "medium" },
     ],
   },
++  {
+    id: "workshop-attendance",
+    title: "Workshop attendance",
+    category: "Events",
+    description: "Get practical value from a workshop or conference session.",
+    tasks: [
+      { title: "Review agenda and choose the sessions most relevant to goals", priority: "medium" },
+      { title: "Prepare one question and a note-taking structure", priority: "medium" },
+      { title: "Capture follow-up actions and useful contacts afterward", priority: "high" },
+    ],
+  },
 ];
