@@ -472,4 +472,15 @@ window.EveryDayToDoTemplates = [
       { title: "Write three recall prompts before ending the session", priority: "medium" },
     ],
   },
++  {
+    id: "flashcard-review",
+    title: "Flashcard review",
+    category: "Learning",
+    description: "Strengthen memory through short, deliberate retrieval practice.",
+    tasks: [
+      { title: "Review due cards without looking at answers first", priority: "high" },
+      { title: "Mark weak cards and rewrite unclear prompts", priority: "medium" },
+      { title: "Add only the most useful new cards from today's study", priority: "low" },
+    ],
+  },
 ];
