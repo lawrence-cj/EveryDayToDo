@@ -1781,4 +1781,15 @@ window.EveryDayToDoTemplates = [
       { title: "Track applications, contacts, and follow-up dates", priority: "medium" },
     ],
   },
++  {
+    id: "networking-outreach",
+    title: "Networking outreach",
+    category: "Career",
+    description: "Reach out professionally with a clear, respectful purpose.",
+    tasks: [
+      { title: "Choose a person whose perspective is genuinely relevant", priority: "medium" },
+      { title: "Write a brief message with context and a specific ask", priority: "high" },
+      { title: "Prepare one or two thoughtful questions for the conversation", priority: "medium" },
+    ],
+  },
 ];
