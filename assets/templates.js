@@ -615,4 +615,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record the timeline, evidence, and follow-up actions", priority: "medium" },
     ],
   },
++  {
+    id: "architecture-decision",
+    title: "Architecture decision",
+    category: "Engineering",
+    description: "Document a technical choice with its tradeoffs.",
+    tasks: [
+      { title: "State the decision context and non-negotiable constraints", priority: "high" },
+      { title: "Compare viable options against agreed criteria", priority: "high" },
+      { title: "Record the decision, consequences, and review trigger", priority: "medium" },
+    ],
+  },
 ];
