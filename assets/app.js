@@ -1,4 +1,5 @@
 const storageKey = "everyday-todo.tasks";
+const templates = Array.isArray(window.EveryDayToDoTemplates) ? window.EveryDayToDoTemplates : [];
 const state = {
   filter: "today",
   tasks: loadTasks(),
@@ -34,6 +35,10 @@ const elements = {
   todayTotal: document.querySelector("#today-total"),
   upcomingTotal: document.querySelector("#upcoming-total"),
   allTotal: document.querySelector("#all-total"),
+  closeTemplates: document.querySelector("#close-templates"),
+  openTemplates: document.querySelector("#open-templates"),
+  templateDialog: document.querySelector("#template-dialog"),
+  templateList: document.querySelector("#template-list"),
 };
 
 function localDateString(date = new Date()) {
@@ -189,17 +194,59 @@ function clearCompleted() {
   render();
 }
 
+function applyTemplate(template) {
+  const date = elements.taskDate.value || localDateString();
+  const createdAt = new Date().toISOString();
+  const templateTasks = template.tasks.map((task) => ({
+    id: typeof crypto.randomUUID === "function"
+      ? crypto.randomUUID()
+      : `${Date.now()}-${Math.random().toString(16).slice(2)}`,
+    title: task.title,
+    date,
+    priority: task.priority,
+    completed: false,
+    createdAt,
+  }));
+
+  state.tasks.unshift(...templateTasks);
+  saveTasks();
+  elements.templateDialog.close();
+  state.filter = date === localDateString() ? "today" : "all";
+  render();
+}
+
+function renderTemplates() {
+  const cards = templates.map((template) => {
+    const button = document.createElement("button");
+    const title = document.createElement("strong");
+    const description = document.createElement("span");
+
+    button.className = "template-card";
+    button.type = "button";
+    title.textContent = template.title;
+    description.textContent = template.description;
+    button.append(title, description);
+    button.addEventListener("click", () => applyTemplate(template));
+    return button;
+  });
+
+  elements.templateList.replaceChildren(...cards);
+}
+
 function initialize() {
   elements.todayDate.textContent = dateFormatter.format(new Date());
   elements.taskDate.value = localDateString();
   elements.form.addEventListener("submit", createTask);
   elements.clearCompleted.addEventListener("click", clearCompleted);
+  elements.openTemplates.addEventListener("click", () => elements.templateDialog.showModal());
+  elements.closeTemplates.addEventListener("click", () => elements.templateDialog.close());
   elements.filters.forEach((filter) => {
     filter.addEventListener("click", () => {
       state.filter = filter.dataset.filter;
       render();
     });
   });
+  renderTemplates();
   render();
 }
 
