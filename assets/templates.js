@@ -1187,4 +1187,15 @@ window.EveryDayToDoTemplates = [
       { title: "Save confirmations and update the budget record", priority: "medium" },
     ],
   },
++  {
+    id: "savings-check",
+    title: "Savings check",
+    category: "Finance",
+    description: "Keep savings goals aligned with current priorities.",
+    tasks: [
+      { title: "Review balances against emergency and near-term goals", priority: "medium" },
+      { title: "Set or confirm an automatic contribution amount", priority: "high" },
+      { title: "Record progress and any goal date changes", priority: "low" },
+    ],
+  },
 ];
