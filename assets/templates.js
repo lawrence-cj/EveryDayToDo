@@ -538,4 +538,15 @@ window.EveryDayToDoTemplates = [
       { title: "Write or record five original sentences using new words", priority: "medium" },
     ],
   },
++  {
+    id: "teach-back",
+    title: "Teach back",
+    category: "Learning",
+    description: "Use explanation to reveal what you really understand.",
+    tasks: [
+      { title: "Choose one idea you learned recently", priority: "medium" },
+      { title: "Explain it to an imagined beginner without jargon", priority: "high" },
+      { title: "Revise notes where the explanation became uncertain", priority: "high" },
+    ],
+  },
 ];
