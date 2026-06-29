@@ -604,4 +604,15 @@ window.EveryDayToDoTemplates = [
       { title: "Notify stakeholders of timing and expected impact", priority: "medium" },
     ],
   },
++  {
+    id: "incident-response",
+    title: "Incident response",
+    category: "Engineering",
+    description: "Stabilize an issue before pursuing a full explanation.",
+    tasks: [
+      { title: "Assess user impact and establish an incident owner", priority: "high" },
+      { title: "Apply the safest mitigation and monitor its effect", priority: "high" },
+      { title: "Record the timeline, evidence, and follow-up actions", priority: "medium" },
+    ],
+  },
 ];
