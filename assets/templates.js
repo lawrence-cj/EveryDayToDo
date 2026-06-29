@@ -1814,4 +1814,15 @@ window.EveryDayToDoTemplates = [
       { title: "Identify one missing skill to develop next", priority: "medium" },
     ],
   },
++  {
+    id: "career-planning",
+    title: "Career planning",
+    category: "Career",
+    description: "Connect current work to a longer-term career direction.",
+    tasks: [
+      { title: "Describe the work you want more and less of", priority: "high" },
+      { title: "Identify capabilities, relationships, and experiences needed", priority: "high" },
+      { title: "Choose one development action for this quarter", priority: "medium" },
+    ],
+  },
 ];
