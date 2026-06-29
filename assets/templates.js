@@ -593,4 +593,15 @@ window.EveryDayToDoTemplates = [
       { title: "Leave actionable comments with clear rationale", priority: "medium" },
     ],
   },
++  {
+    id: "release-checklist",
+    title: "Release checklist",
+    category: "Engineering",
+    description: "Prepare a release that is observable and reversible.",
+    tasks: [
+      { title: "Confirm tests, versioning, and release notes are complete", priority: "high" },
+      { title: "Verify rollout, monitoring, and rollback steps", priority: "high" },
+      { title: "Notify stakeholders of timing and expected impact", priority: "medium" },
+    ],
+  },
 ];
