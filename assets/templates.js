@@ -714,4 +714,15 @@ window.EveryDayToDoTemplates = [
       { title: "Confirm escalation paths and next ownership window", priority: "medium" },
     ],
   },
++  {
+    id: "api-design",
+    title: "API design",
+    category: "Engineering",
+    description: "Define an interface that is clear for its consumers.",
+    tasks: [
+      { title: "Describe primary consumers and their required workflows", priority: "high" },
+      { title: "Draft request, response, error, and versioning behavior", priority: "high" },
+      { title: "Review naming, authentication, and pagination choices", priority: "medium" },
+    ],
+  },
 ];
