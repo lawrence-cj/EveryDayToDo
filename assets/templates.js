@@ -219,4 +219,15 @@ window.EveryDayToDoTemplates = [
       { title: "Draft an agenda with an owner and time box for each item", priority: "high" },
     ],
   },
++  {
+    id: "workday-closeout",
+    title: "Workday closeout",
+    category: "Work",
+    description: "Leave projects organized before stepping away.",
+    tasks: [
+      { title: "Update the current task or project status", priority: "medium" },
+      { title: "Capture the next action for every unfinished priority", priority: "high" },
+      { title: "Send any time-sensitive update before ending the day", priority: "medium" },
+    ],
+  },
 ];
