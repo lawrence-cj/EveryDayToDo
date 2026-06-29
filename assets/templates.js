@@ -98,4 +98,15 @@ window.EveryDayToDoTemplates = [
       { title: "Turn non-email work into scheduled tasks", priority: "medium" },
     ],
   },
++  {
+    id: "decision-clarity",
+    title: "Decision clarity",
+    category: "Focus",
+    description: "Move a stalled choice toward a concrete decision.",
+    tasks: [
+      { title: "Write the decision in one clear sentence", priority: "high" },
+      { title: "List the two or three criteria that matter most", priority: "medium" },
+      { title: "Choose a next action or a deadline for deciding", priority: "high" },
+    ],
+  },
 ];
