@@ -1352,4 +1352,15 @@ window.EveryDayToDoTemplates = [
       { title: "Charge devices and keep travel items easy to access", priority: "medium" },
     ],
   },
++  {
+    id: "travel-day",
+    title: "Travel day",
+    category: "Travel",
+    description: "Move through travel logistics with enough buffer time.",
+    tasks: [
+      { title: "Confirm departure time, route, and check-in requirements", priority: "high" },
+      { title: "Pack identification, tickets, and key contacts together", priority: "high" },
+      { title: "Leave with a buffer for delays and transitions", priority: "medium" },
+    ],
+  },
 ];
