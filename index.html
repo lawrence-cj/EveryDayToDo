@@ -14,7 +14,10 @@
           <p class="eyebrow">Personal planner</p>
           <h1>EveryDayToDo</h1>
         </div>
-        <button class="text-button" id="clear-completed" type="button">Clear completed</button>
+        <div class="topbar-actions">
+          <button class="text-button" id="open-templates" type="button">Use a template</button>
+          <button class="text-button" id="clear-completed" type="button">Clear completed</button>
+        </div>
       </header>
 
       <section class="overview" aria-labelledby="today-heading">
@@ -72,6 +75,18 @@
         </div>
       </section>
     </main>
+
+    <dialog class="template-dialog" id="template-dialog" aria-labelledby="template-dialog-title">
+      <div class="dialog-heading">
+        <div>
+          <p class="eyebrow">Starter plans</p>
+          <h2 id="template-dialog-title">Start with a useful list</h2>
+        </div>
+        <button class="delete-button" id="close-templates" type="button" title="Close templates" aria-label="Close templates">x</button>
+      </div>
+      <p class="dialog-intro">Choose a plan to add its tasks to the selected day.</p>
+      <div class="template-grid" id="template-list"></div>
+    </dialog>
 
     <template id="task-template">
       <li class="task-item">
