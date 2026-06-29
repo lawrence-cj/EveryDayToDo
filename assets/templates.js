@@ -780,4 +780,15 @@ window.EveryDayToDoTemplates = [
       { title: "Commit to one measurable experiment for the next cycle", priority: "high" },
     ],
   },
++  {
+    id: "sprint-planning",
+    title: "Sprint planning",
+    category: "Meetings",
+    description: "Set a focused, feasible plan for the next delivery cycle.",
+    tasks: [
+      { title: "Review capacity, carryover work, and delivery goals", priority: "high" },
+      { title: "Select work that supports the sprint outcome", priority: "high" },
+      { title: "Confirm dependencies, owners, and the first actions", priority: "medium" },
+    ],
+  },
 ];
