@@ -670,4 +670,15 @@ window.EveryDayToDoTemplates = [
       { title: "Plan communication and validation for affected users", priority: "medium" },
     ],
   },
++  {
+    id: "debugging-session",
+    title: "Debugging session",
+    category: "Engineering",
+    description: "Investigate a defect without jumping to the first fix.",
+    tasks: [
+      { title: "Write a precise reproduction and expected observation", priority: "high" },
+      { title: "Form one hypothesis and gather evidence to test it", priority: "high" },
+      { title: "Add a regression check before closing the investigation", priority: "medium" },
+    ],
+  },
 ];
