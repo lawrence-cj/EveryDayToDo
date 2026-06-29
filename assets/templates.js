@@ -208,4 +208,15 @@ window.EveryDayToDoTemplates = [
       { title: "Confirm the receiving owner and next checkpoint", priority: "medium" },
     ],
   },
++  {
+    id: "meeting-preparation",
+    title: "Meeting preparation",
+    category: "Work",
+    description: "Make a meeting worth the time it takes to attend.",
+    tasks: [
+      { title: "Write the decision or outcome the meeting must produce", priority: "high" },
+      { title: "Prepare the minimum context attendees need in advance", priority: "medium" },
+      { title: "Draft an agenda with an owner and time box for each item", priority: "high" },
+    ],
+  },
 ];
