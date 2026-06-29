@@ -1638,4 +1638,15 @@ window.EveryDayToDoTemplates = [
       { title: "Archive resolved choices with their rationale", priority: "medium" },
     ],
   },
++  {
+    id: "assignment-plan",
+    title: "Assignment plan",
+    category: "Academic",
+    description: "Turn an assignment brief into a workable plan.",
+    tasks: [
+      { title: "Read the rubric, deliverables, and submission deadline", priority: "high" },
+      { title: "Break the work into research, draft, and revision milestones", priority: "high" },
+      { title: "Schedule the first work block before leaving the brief", priority: "medium" },
+    ],
+  },
 ];
