@@ -1627,4 +1627,15 @@ window.EveryDayToDoTemplates = [
       { title: "Review whether any idea should become an active project", priority: "medium" },
     ],
   },
++  {
+    id: "decision-tracker",
+    title: "Decision tracker",
+    category: "Organization",
+    description: "Keep pending decisions visible until they are resolved.",
+    tasks: [
+      { title: "List decisions, owners, deadlines, and needed input", priority: "high" },
+      { title: "Request missing information or schedule a decision point", priority: "high" },
+      { title: "Archive resolved choices with their rationale", priority: "medium" },
+    ],
+  },
 ];
