@@ -1792,4 +1792,15 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare one or two thoughtful questions for the conversation", priority: "medium" },
     ],
   },
++  {
+    id: "interview-follow-up",
+    title: "Interview follow-up",
+    category: "Career",
+    description: "Follow up after an interview while details are fresh.",
+    tasks: [
+      { title: "Record questions, examples, and signals from the interview", priority: "medium" },
+      { title: "Send a concise thank-you note with relevant context", priority: "high" },
+      { title: "Note any promised material and the follow-up timeline", priority: "high" },
+    ],
+  },
 ];
