@@ -1176,4 +1176,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one saving or debt action for the month", priority: "medium" },
     ],
   },
++  {
+    id: "bill-payment",
+    title: "Bill payment",
+    category: "Finance",
+    description: "Pay obligations on time and retain confirmation.",
+    tasks: [
+      { title: "Review due dates, amounts, and available balances", priority: "high" },
+      { title: "Pay or schedule each bill using a secure account", priority: "high" },
+      { title: "Save confirmations and update the budget record", priority: "medium" },
+    ],
+  },
 ];
