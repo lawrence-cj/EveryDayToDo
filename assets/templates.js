@@ -1704,4 +1704,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record deviations and observations during the session", priority: "high" },
     ],
   },
++  {
+    id: "academic-presentation",
+    title: "Academic presentation",
+    category: "Academic",
+    description: "Build a clear presentation around an academic argument.",
+    tasks: [
+      { title: "State the research question and central takeaway", priority: "high" },
+      { title: "Select evidence that supports each major point", priority: "high" },
+      { title: "Practice timing and prepare for likely questions", priority: "medium" },
+    ],
+  },
 ];
