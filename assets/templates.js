@@ -1418,4 +1418,15 @@ window.EveryDayToDoTemplates = [
       { title: "Send it and let the connection be enough", priority: "low" },
     ],
   },
++  {
+    id: "family-check-in",
+    title: "Family check-in",
+    category: "Relationships",
+    description: "Stay connected around what matters to family members.",
+    tasks: [
+      { title: "Ask about current needs, plans, and unresolved concerns", priority: "high" },
+      { title: "Share relevant updates clearly and calmly", priority: "medium" },
+      { title: "Confirm any next steps or practical support", priority: "medium" },
+    ],
+  },
 ];
