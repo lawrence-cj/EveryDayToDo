@@ -1869,4 +1869,15 @@ window.EveryDayToDoTemplates = [
       { title: "Plan travel and a short reflection after the activity", priority: "low" },
     ],
   },
++  {
+    id: "birthday-plan",
+    title: "Birthday plan",
+    category: "Events",
+    description: "Organize a celebration around the person's preferences.",
+    tasks: [
+      { title: "Confirm date, guest list, and preferred kind of celebration", priority: "high" },
+      { title: "Plan food, activity, and any reservations or supplies", priority: "medium" },
+      { title: "Prepare a personal note or gift in advance", priority: "medium" },
+    ],
+  },
 ];
