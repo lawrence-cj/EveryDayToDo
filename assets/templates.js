@@ -395,4 +395,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record limitations that affect interpretation", priority: "medium" },
     ],
   },
++  {
+    id: "experiment-plan",
+    title: "Experiment plan",
+    category: "Research",
+    description: "Set up a test with a measurable learning objective.",
+    tasks: [
+      { title: "State the hypothesis and the expected observable change", priority: "high" },
+      { title: "Define the comparison, sample, and success metric", priority: "high" },
+      { title: "Write the decision rule before looking at results", priority: "medium" },
+    ],
+  },
 ];
