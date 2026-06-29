@@ -1363,4 +1363,15 @@ window.EveryDayToDoTemplates = [
       { title: "Leave with a buffer for delays and transitions", priority: "medium" },
     ],
   },
++  {
+    id: "itinerary-check",
+    title: "Itinerary check",
+    category: "Travel",
+    description: "Keep an itinerary useful without overplanning every hour.",
+    tasks: [
+      { title: "Review confirmed reservations and opening times", priority: "high" },
+      { title: "Choose the one activity most important for the day", priority: "medium" },
+      { title: "Leave space for rest, meals, and unexpected discoveries", priority: "low" },
+    ],
+  },
 ];
