@@ -1605,4 +1605,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose a cadence for updating the dashboard", priority: "medium" },
     ],
   },
++  {
+    id: "weekly-reset",
+    title: "Weekly reset",
+    category: "Organization",
+    description: "Restore task lists and plans before a new week begins.",
+    tasks: [
+      { title: "Clear captured notes and update open task lists", priority: "high" },
+      { title: "Review calendar, deadlines, and waiting-for items", priority: "high" },
+      { title: "Choose the few outcomes that deserve next week's focus", priority: "medium" },
+    ],
+  },
 ];
