@@ -1396,4 +1396,15 @@ window.EveryDayToDoTemplates = [
       { title: "Leave enough time to return without rushing", priority: "low" },
     ],
   },
++  {
+    id: "friend-catch-up",
+    title: "Friend catch-up",
+    category: "Relationships",
+    description: "Make space for a genuine conversation with a friend.",
+    tasks: [
+      { title: "Choose someone you want to reconnect with", priority: "medium" },
+      { title: "Suggest a specific time and low-friction way to meet", priority: "high" },
+      { title: "Show up curious and follow through on any commitments", priority: "medium" },
+    ],
+  },
 ];
