@@ -54,4 +54,15 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare the files and materials needed to begin", priority: "medium" },
     ],
   },
++  {
+    id: "afternoon-reset",
+    title: "Afternoon reset",
+    category: "Focus",
+    description: "Replan the remaining day with realistic energy.",
+    tasks: [
+      { title: "Review what is complete and what is still blocked", priority: "medium" },
+      { title: "Choose one finishable task for the next hour", priority: "high" },
+      { title: "Schedule or defer work that no longer fits today", priority: "medium" },
+    ],
+  },
 ];
