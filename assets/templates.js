@@ -516,4 +516,15 @@ window.EveryDayToDoTemplates = [
       { title: "Find one gap in the explanation and resolve it", priority: "high" },
     ],
   },
++  {
+    id: "book-notes",
+    title: "Book notes",
+    category: "Learning",
+    description: "Turn reading into ideas that remain useful later.",
+    tasks: [
+      { title: "Write the author's central claim in your own words", priority: "high" },
+      { title: "Capture three ideas worth revisiting or applying", priority: "medium" },
+      { title: "Choose one action or question to carry forward", priority: "medium" },
+    ],
+  },
 ];
