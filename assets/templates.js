@@ -329,4 +329,15 @@ window.EveryDayToDoTemplates = [
       { title: "Verify examples match the current product behavior", priority: "medium" },
     ],
   },
++  {
+    id: "announcement-draft",
+    title: "Announcement draft",
+    category: "Writing",
+    description: "Communicate a change with enough context and direction.",
+    tasks: [
+      { title: "State what changed, who it affects, and when", priority: "high" },
+      { title: "Explain the practical benefit in reader language", priority: "medium" },
+      { title: "Include an explicit next step and help channel", priority: "high" },
+    ],
+  },
 ];
