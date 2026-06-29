@@ -1154,4 +1154,15 @@ window.EveryDayToDoTemplates = [
       { title: "Save instructions, forms, and appointment details", priority: "low" },
     ],
   },
++  {
+    id: "walking-break",
+    title: "Walking break",
+    category: "Health",
+    description: "Use a short walk to restore attention and circulation.",
+    tasks: [
+      { title: "Choose a safe route and a realistic duration", priority: "low" },
+      { title: "Walk without screens for at least part of the break", priority: "low" },
+      { title: "Return with one clear task to resume", priority: "medium" },
+    ],
+  },
 ];
