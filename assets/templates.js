@@ -967,4 +967,15 @@ window.EveryDayToDoTemplates = [
       { title: "Group the list by store section before shopping", priority: "low" },
     ],
   },
++  {
+    id: "meal-prep",
+    title: "Meal prep",
+    category: "Home",
+    description: "Prepare a few flexible components for easier meals.",
+    tasks: [
+      { title: "Choose proteins, vegetables, and one staple to prepare", priority: "medium" },
+      { title: "Cook and portion components safely for later use", priority: "high" },
+      { title: "Label leftovers with contents and date", priority: "low" },
+    ],
+  },
 ];
