@@ -824,4 +824,15 @@ window.EveryDayToDoTemplates = [
       { title: "Agree on one next action and a review point", priority: "medium" },
     ],
   },
++  {
+    id: "meeting-follow-up",
+    title: "Meeting follow-up",
+    category: "Meetings",
+    description: "Turn a conversation into accountable next steps.",
+    tasks: [
+      { title: "Send a concise recap of decisions and action items", priority: "high" },
+      { title: "Assign an owner and due date to each commitment", priority: "high" },
+      { title: "Update the shared project record with the outcome", priority: "medium" },
+    ],
+  },
 ];
