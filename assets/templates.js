@@ -1649,4 +1649,15 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule the first work block before leaving the brief", priority: "medium" },
     ],
   },
++  {
+    id: "thesis-session",
+    title: "Thesis session",
+    category: "Academic",
+    description: "Make steady progress on a long-form academic project.",
+    tasks: [
+      { title: "Choose one narrow section or research task", priority: "high" },
+      { title: "Write or analyze for a protected block of time", priority: "high" },
+      { title: "Record citations, open questions, and the next entry point", priority: "medium" },
+    ],
+  },
 ];
