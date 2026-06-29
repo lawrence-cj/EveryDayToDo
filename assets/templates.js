@@ -890,4 +890,15 @@ window.EveryDayToDoTemplates = [
       { title: "Store recovery codes in a secure location", priority: "medium" },
     ],
   },
++  {
+    id: "calendar-audit",
+    title: "Calendar audit",
+    category: "Admin",
+    description: "Make time commitments visible and intentional.",
+    tasks: [
+      { title: "Review upcoming commitments for conflicts and stale holds", priority: "high" },
+      { title: "Protect focus, recovery, and preparation time", priority: "medium" },
+      { title: "Decline, shorten, or delegate low-value meetings", priority: "high" },
+    ],
+  },
 ];
