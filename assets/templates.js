@@ -769,4 +769,15 @@ window.EveryDayToDoTemplates = [
       { title: "Confirm owners and dates for agreed next steps", priority: "high" },
     ],
   },
++  {
+    id: "team-retrospective",
+    title: "Team retrospective",
+    category: "Meetings",
+    description: "Learn from a work period and improve the next one.",
+    tasks: [
+      { title: "Gather examples of what helped and what created friction", priority: "medium" },
+      { title: "Discuss one theme at a time without assigning blame", priority: "high" },
+      { title: "Commit to one measurable experiment for the next cycle", priority: "high" },
+    ],
+  },
 ];
