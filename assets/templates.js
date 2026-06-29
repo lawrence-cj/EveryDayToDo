@@ -164,4 +164,15 @@ window.EveryDayToDoTemplates = [
       { title: "State the next milestone with its expected date", priority: "medium" },
     ],
   },
++  {
+    id: "deadline-backplan",
+    title: "Deadline backplan",
+    category: "Work",
+    description: "Work backward from a fixed delivery date.",
+    tasks: [
+      { title: "List the final deliverable and non-negotiable checks", priority: "high" },
+      { title: "Set intermediate review and completion milestones", priority: "high" },
+      { title: "Schedule the first concrete action today", priority: "medium" },
+    ],
+  },
 ];
