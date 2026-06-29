@@ -230,4 +230,15 @@ window.EveryDayToDoTemplates = [
       { title: "Send any time-sensitive update before ending the day", priority: "medium" },
     ],
   },
++  {
+    id: "writing-brief",
+    title: "Writing brief",
+    category: "Writing",
+    description: "Clarify the reader and purpose before drafting.",
+    tasks: [
+      { title: "Name the intended reader and the change they need", priority: "high" },
+      { title: "Write the single message the piece must communicate", priority: "high" },
+      { title: "Collect the evidence, examples, and links to support it", priority: "medium" },
+    ],
+  },
 ];
