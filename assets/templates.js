@@ -945,4 +945,15 @@ window.EveryDayToDoTemplates = [
       { title: "Set one rule that keeps the area orderly", priority: "medium" },
     ],
   },
++  {
+    id: "weekly-home-reset",
+    title: "Weekly home reset",
+    category: "Home",
+    description: "Restore the home to a calm, functional baseline.",
+    tasks: [
+      { title: "Put away items that accumulated in shared spaces", priority: "medium" },
+      { title: "Choose the two areas that need cleaning most", priority: "high" },
+      { title: "Restock one essential household supply", priority: "low" },
+    ],
+  },
 ];
