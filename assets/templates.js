@@ -2078,4 +2078,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one next action small enough for this week", priority: "high" },
     ],
   },
++  {
+    id: "life-appointment",
+    title: "Life appointment",
+    category: "Personal",
+    description: "Prepare for an important personal appointment or errand.",
+    tasks: [
+      { title: "Confirm time, location, documents, and travel needs", priority: "high" },
+      { title: "Write the questions or outcomes that matter most", priority: "medium" },
+      { title: "Plan a follow-up action before the appointment happens", priority: "medium" },
+    ],
+  },
 ];
