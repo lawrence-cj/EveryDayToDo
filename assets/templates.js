@@ -846,4 +846,15 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule follow-up tasks instead of leaving messages unread", priority: "high" },
     ],
   },
++  {
+    id: "expense-report",
+    title: "Expense report",
+    category: "Admin",
+    description: "Prepare a complete reimbursement submission.",
+    tasks: [
+      { title: "Collect receipts and match them to each transaction", priority: "high" },
+      { title: "Check category, policy, and required documentation", priority: "high" },
+      { title: "Submit the report and note its approval status", priority: "medium" },
+    ],
+  },
 ];
