@@ -1858,4 +1858,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one simple activity or meal to share", priority: "low" },
     ],
   },
++  {
+    id: "volunteer-day",
+    title: "Volunteer day",
+    category: "Events",
+    description: "Prepare for a volunteer commitment with useful context.",
+    tasks: [
+      { title: "Confirm time, location, role, and required materials", priority: "high" },
+      { title: "Review any orientation, safety, or accessibility guidance", priority: "medium" },
+      { title: "Plan travel and a short reflection after the activity", priority: "low" },
+    ],
+  },
 ];
