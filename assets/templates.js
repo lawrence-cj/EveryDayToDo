@@ -76,4 +76,15 @@ window.EveryDayToDoTemplates = [
       { title: "Close work tools and clear the physical workspace", priority: "low" },
     ],
   },
++  {
+    id: "single-task-sprint",
+    title: "Single-task sprint",
+    category: "Focus",
+    description: "Make visible progress when the next step feels small.",
+    tasks: [
+      { title: "Name the smallest useful version of the task", priority: "high" },
+      { title: "Set a short timer and work without switching context", priority: "high" },
+      { title: "Record what changed and identify the next smallest step", priority: "medium" },
+    ],
+  },
 ];
