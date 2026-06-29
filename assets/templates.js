@@ -1000,4 +1000,15 @@ window.EveryDayToDoTemplates = [
       { title: "Set a timer and stop when the planned block ends", priority: "low" },
     ],
   },
++  {
+    id: "home-maintenance",
+    title: "Home maintenance",
+    category: "Home",
+    description: "Prevent small household issues from becoming urgent repairs.",
+    tasks: [
+      { title: "Inspect one seasonal or high-use household system", priority: "medium" },
+      { title: "Complete simple maintenance or schedule professional help", priority: "high" },
+      { title: "Record the date and next recommended check", priority: "low" },
+    ],
+  },
 ];
