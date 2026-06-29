@@ -505,4 +505,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record feedback and the adjustment for next time", priority: "medium" },
     ],
   },
++  {
+    id: "concept-review",
+    title: "Concept review",
+    category: "Learning",
+    description: "Make a difficult concept explainable in plain language.",
+    tasks: [
+      { title: "Write the concept and why it matters in one sentence", priority: "medium" },
+      { title: "Explain it from memory without source material", priority: "high" },
+      { title: "Find one gap in the explanation and resolve it", priority: "high" },
+    ],
+  },
 ];
