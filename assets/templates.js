@@ -1913,4 +1913,15 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare a simple welcome and closing structure", priority: "medium" },
     ],
   },
++  {
+    id: "seasonal-planning",
+    title: "Seasonal planning",
+    category: "Events",
+    description: "Prepare early for a recurring seasonal occasion.",
+    tasks: [
+      { title: "List dates, people, travel, and key commitments", priority: "high" },
+      { title: "Set a budget and schedule preparation milestones", priority: "medium" },
+      { title: "Complete the earliest time-sensitive booking or purchase", priority: "high" },
+    ],
+  },
 ];
