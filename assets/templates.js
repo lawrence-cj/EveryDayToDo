@@ -1693,4 +1693,15 @@ window.EveryDayToDoTemplates = [
       { title: "Set a check-in date before the next deadline", priority: "medium" },
     ],
   },
++  {
+    id: "lab-session",
+    title: "Lab session",
+    category: "Academic",
+    description: "Prepare a lab or practical session for reliable results.",
+    tasks: [
+      { title: "Review procedure, safety requirements, and expected output", priority: "high" },
+      { title: "Prepare materials, data sheets, and calculations", priority: "medium" },
+      { title: "Record deviations and observations during the session", priority: "high" },
+    ],
+  },
 ];
