@@ -223,3 +223,13 @@ implementation;
 
 ## 0629
 review;
+
+## Daily planner
+
+This repository now includes a dependency-free daily task planner. Open `index.html` in a modern browser, or serve this directory locally:
+
+```sh
+python3 -m http.server 8000
+```
+
+The planner supports adding dated tasks, setting priority, switching between today/upcoming/all/completed views, completing tasks, and clearing completed tasks. Tasks are kept in the browser's local storage, so no account or server is required.
