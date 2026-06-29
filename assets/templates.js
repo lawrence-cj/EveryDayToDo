@@ -362,4 +362,15 @@ window.EveryDayToDoTemplates = [
       { title: "Summarize agreements, disagreements, and gaps", priority: "high" },
     ],
   },
++  {
+    id: "interview-study",
+    title: "Interview study",
+    category: "Research",
+    description: "Prepare qualitative interviews that yield comparable insight.",
+    tasks: [
+      { title: "Define the participant profile and recruitment approach", priority: "high" },
+      { title: "Draft open questions tied to the research goal", priority: "high" },
+      { title: "Prepare consent, recording, and note-taking process", priority: "medium" },
+    ],
+  },
 ];
