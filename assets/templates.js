@@ -1935,4 +1935,15 @@ window.EveryDayToDoTemplates = [
       { title: "Delete obvious duplicates and label one recent album", priority: "low" },
     ],
   },
++  {
+    id: "device-maintenance",
+    title: "Device maintenance",
+    category: "Digital",
+    description: "Keep a primary device secure, updated, and usable.",
+    tasks: [
+      { title: "Install pending system and application updates", priority: "high" },
+      { title: "Check storage, battery, and backup health", priority: "medium" },
+      { title: "Remove unused apps and restart the device", priority: "low" },
+    ],
+  },
 ];
