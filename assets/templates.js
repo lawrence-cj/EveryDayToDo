@@ -32,4 +32,15 @@ window.EveryDayToDoTemplates = [
       { title: "Defer or delete work that does not matter this week", priority: "medium" },
     ],
   },
++  {
+    id: "distraction-reset",
+    title: "Distraction reset",
+    category: "Focus",
+    description: "Regain attention after a fragmented stretch of work.",
+    tasks: [
+      { title: "Write down the thought or task pulling attention away", priority: "medium" },
+      { title: "Close unrelated tabs and move the phone away", priority: "medium" },
+      { title: "Work for twenty minutes on the next visible action", priority: "high" },
+    ],
+  },
 ];
