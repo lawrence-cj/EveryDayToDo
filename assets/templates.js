@@ -1022,4 +1022,15 @@ window.EveryDayToDoTemplates = [
       { title: "Set aside essentials needed for the first day", priority: "high" },
     ],
   },
++  {
+    id: "garden-care",
+    title: "Garden care",
+    category: "Home",
+    description: "Give outdoor plants a short, regular maintenance check.",
+    tasks: [
+      { title: "Check soil moisture, weather, and plant condition", priority: "low" },
+      { title: "Water, prune, or support plants that need attention", priority: "medium" },
+      { title: "Note supplies or seasonal tasks for the next visit", priority: "low" },
+    ],
+  },
 ];
