@@ -1231,4 +1231,15 @@ window.EveryDayToDoTemplates = [
       { title: "List questions for the insurer or an independent adviser", priority: "medium" },
     ],
   },
++  {
+    id: "financial-goals",
+    title: "Financial goals",
+    category: "Finance",
+    description: "Translate long-term money priorities into next steps.",
+    tasks: [
+      { title: "Choose one near-term and one long-term financial goal", priority: "high" },
+      { title: "Estimate target amount, date, and monthly contribution", priority: "high" },
+      { title: "Set a monthly review reminder and track starting point", priority: "medium" },
+    ],
+  },
 ];
