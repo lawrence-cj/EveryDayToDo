@@ -294,6 +294,7 @@ function initialize() {
   elements.clearCompleted.addEventListener("click", clearCompleted);
   elements.openTemplates.addEventListener("click", openTemplateDialog);
   elements.closeTemplates.addEventListener("click", () => elements.templateDialog.close());
+  elements.templateDialog.addEventListener("close", () => elements.openTemplates.focus());
   elements.templateSearch.addEventListener("input", (event) => {
     state.templateQuery = event.target.value;
     renderTemplates();
