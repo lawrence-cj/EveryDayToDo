@@ -1297,4 +1297,15 @@ window.EveryDayToDoTemplates = [
       { title: "Select and organize the strongest images afterward", priority: "high" },
     ],
   },
++  {
+    id: "music-practice",
+    title: "Music practice",
+    category: "Creative",
+    description: "Improve one musical skill through focused repetition.",
+    tasks: [
+      { title: "Choose a passage, technique, or piece to practice", priority: "medium" },
+      { title: "Practice slowly with attention to one specific detail", priority: "high" },
+      { title: "Record a short sample and note the next adjustment", priority: "medium" },
+    ],
+  },
 ];
