@@ -417,4 +417,15 @@ window.EveryDayToDoTemplates = [
       { title: "Document how missing data and outliers will be handled", priority: "medium" },
     ],
   },
++  {
+    id: "research-synthesis",
+    title: "Research synthesis",
+    category: "Research",
+    description: "Turn many findings into a decision-ready story.",
+    tasks: [
+      { title: "Group findings into themes rather than source order", priority: "high" },
+      { title: "Separate observations, interpretations, and recommendations", priority: "high" },
+      { title: "Identify the most important open question", priority: "medium" },
+    ],
+  },
 ];
