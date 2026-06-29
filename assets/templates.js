@@ -1495,4 +1495,15 @@ window.EveryDayToDoTemplates = [
       { title: "Set a date to review what actually happened", priority: "medium" },
     ],
   },
++  {
+    id: "month-end-reflection",
+    title: "Month-end reflection",
+    category: "Reflection",
+    description: "Look back at a month before setting the next direction.",
+    tasks: [
+      { title: "Review notable outcomes, moments, and commitments", priority: "medium" },
+      { title: "Identify the most important lesson from the month", priority: "high" },
+      { title: "Choose one focus to carry into the next month", priority: "high" },
+    ],
+  },
 ];
