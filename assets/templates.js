@@ -43,4 +43,15 @@ window.EveryDayToDoTemplates = [
       { title: "Work for twenty minutes on the next visible action", priority: "high" },
     ],
   },
++  {
+    id: "morning-launch",
+    title: "Morning launch",
+    category: "Focus",
+    description: "Start the day with intent before messages take over.",
+    tasks: [
+      { title: "Review today's calendar and fixed commitments", priority: "medium" },
+      { title: "Choose the first meaningful task before opening inbox", priority: "high" },
+      { title: "Prepare the files and materials needed to begin", priority: "medium" },
+    ],
+  },
 ];
