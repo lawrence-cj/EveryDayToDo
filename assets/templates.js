@@ -989,4 +989,15 @@ window.EveryDayToDoTemplates = [
       { title: "Fold, hang, and return clean items to their places", priority: "high" },
     ],
   },
++  {
+    id: "cleaning-sprint",
+    title: "Cleaning sprint",
+    category: "Home",
+    description: "Make visible progress with a short, focused cleaning block.",
+    tasks: [
+      { title: "Choose one room and remove obvious clutter", priority: "medium" },
+      { title: "Clean the highest-touch surfaces and floor", priority: "high" },
+      { title: "Set a timer and stop when the planned block ends", priority: "low" },
+    ],
+  },
 ];
