@@ -1066,4 +1066,15 @@ window.EveryDayToDoTemplates = [
       { title: "Note energy, discomfort, or a reason to adjust tomorrow", priority: "low" },
     ],
   },
++  {
+    id: "strength-training",
+    title: "Strength training",
+    category: "Health",
+    description: "Plan a focused strength session with safe progression.",
+    tasks: [
+      { title: "Choose exercises and loads appropriate for today's goal", priority: "medium" },
+      { title: "Warm up and complete the planned sets with good form", priority: "high" },
+      { title: "Log performance and any movement adjustments", priority: "low" },
+    ],
+  },
 ];
