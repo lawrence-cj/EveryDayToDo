@@ -923,4 +923,15 @@ window.EveryDayToDoTemplates = [
       { title: "Verify backups and record where the archive lives", priority: "high" },
     ],
   },
++  {
+    id: "form-submission",
+    title: "Form submission",
+    category: "Admin",
+    description: "Complete a form without missing required information.",
+    tasks: [
+      { title: "Read requirements and note needed supporting documents", priority: "high" },
+      { title: "Complete fields carefully and save a draft copy", priority: "high" },
+      { title: "Submit before the deadline and retain confirmation", priority: "medium" },
+    ],
+  },
 ];
