@@ -1044,4 +1044,15 @@ window.EveryDayToDoTemplates = [
       { title: "Update any notes on behavior, health, or routine", priority: "low" },
     ],
   },
++  {
+    id: "family-schedule",
+    title: "Family schedule",
+    category: "Home",
+    description: "Coordinate household commitments before the week starts.",
+    tasks: [
+      { title: "Review appointments, school events, and travel plans", priority: "high" },
+      { title: "Confirm transport, care, and shared responsibilities", priority: "high" },
+      { title: "Add buffers for meals, rest, and unexpected changes", priority: "medium" },
+    ],
+  },
 ];
