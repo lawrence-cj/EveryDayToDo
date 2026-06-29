@@ -450,4 +450,15 @@ window.EveryDayToDoTemplates = [
       { title: "Review patterns across sessions before recommending changes", priority: "high" },
     ],
   },
++  {
+    id: "course-plan",
+    title: "Course plan",
+    category: "Learning",
+    description: "Translate a course into a sustainable weekly practice.",
+    tasks: [
+      { title: "Review the syllabus and identify required milestones", priority: "high" },
+      { title: "Schedule recurring study blocks for the next two weeks", priority: "high" },
+      { title: "Choose one small artifact that proves weekly progress", priority: "medium" },
+    ],
+  },
 ];
