@@ -340,4 +340,15 @@ window.EveryDayToDoTemplates = [
       { title: "Include an explicit next step and help channel", priority: "high" },
     ],
   },
++  {
+    id: "research-question",
+    title: "Research question",
+    category: "Research",
+    description: "Frame a question that can guide useful investigation.",
+    tasks: [
+      { title: "Describe the decision this research should inform", priority: "high" },
+      { title: "Write a focused question with defined terms", priority: "high" },
+      { title: "List assumptions to test before collecting evidence", priority: "medium" },
+    ],
+  },
 ];
