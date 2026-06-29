@@ -527,4 +527,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one action or question to carry forward", priority: "medium" },
     ],
   },
++  {
+    id: "language-practice",
+    title: "Language practice",
+    category: "Learning",
+    description: "Build fluency through listening, speaking, and recall.",
+    tasks: [
+      { title: "Review a small set of high-frequency vocabulary", priority: "medium" },
+      { title: "Listen to a short passage and summarize it aloud", priority: "high" },
+      { title: "Write or record five original sentences using new words", priority: "medium" },
+    ],
+  },
 ];
