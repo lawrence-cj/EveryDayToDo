@@ -1209,4 +1209,15 @@ window.EveryDayToDoTemplates = [
       { title: "Note open questions for a qualified tax professional", priority: "medium" },
     ],
   },
++  {
+    id: "purchase-decision",
+    title: "Purchase decision",
+    category: "Finance",
+    description: "Make a considered purchase without impulse or confusion.",
+    tasks: [
+      { title: "Define the need, budget, and minimum useful requirements", priority: "high" },
+      { title: "Compare options using total cost and expected lifespan", priority: "medium" },
+      { title: "Wait for a planned review point before buying", priority: "low" },
+    ],
+  },
 ];
