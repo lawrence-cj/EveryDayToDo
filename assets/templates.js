@@ -109,4 +109,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose a next action or a deadline for deciding", priority: "high" },
     ],
   },
++  {
+    id: "energy-aware-plan",
+    title: "Energy-aware plan",
+    category: "Focus",
+    description: "Match work to the energy available right now.",
+    tasks: [
+      { title: "Rate current energy and attention honestly", priority: "low" },
+      { title: "Choose a task that fits the available energy", priority: "high" },
+      { title: "Protect one recovery break before the next demanding task", priority: "medium" },
+    ],
+  },
 ];
