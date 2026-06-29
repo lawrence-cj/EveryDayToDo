@@ -490,6 +490,13 @@ h1 {
   font-size: 0.82rem;
 }
 
+.template-empty {
+  margin: 0;
+  padding: 26px 0 10px;
+  color: #5b6864;
+  text-align: center;
+}
+
 .template-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
