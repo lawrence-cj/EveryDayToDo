@@ -3,6 +3,7 @@ const templates = Array.isArray(window.EveryDayToDoTemplates) ? window.EveryDayT
 const state = {
   filter: "today",
   tasks: loadTasks(),
+  templateCategory: "All",
   templateQuery: "",
 };
 
@@ -40,6 +41,7 @@ const elements = {
   openTemplates: document.querySelector("#open-templates"),
   templateDialog: document.querySelector("#template-dialog"),
   templateDate: document.querySelector("#template-date"),
+  templateCategories: document.querySelector("#template-categories"),
   templateEmpty: document.querySelector("#template-empty"),
   templateList: document.querySelector("#template-list"),
   templateResults: document.querySelector("#template-results"),
@@ -223,6 +225,10 @@ function applyTemplate(template) {
 function renderTemplates() {
   const normalizedQuery = state.templateQuery.trim().toLowerCase();
   const matchingTemplates = templates.filter((template) => {
+    if (state.templateCategory !== "All" && template.category !== state.templateCategory) {
+      return false;
+    }
+
     const searchableContent = [
       template.title,
       template.category,
@@ -255,6 +261,26 @@ function renderTemplates() {
   elements.templateEmpty.hidden = matchingTemplates.length !== 0;
 }
 
+function renderTemplateCategories() {
+  const categories = ["All", ...new Set(templates.map((template) => template.category || "General"))];
+  const buttons = categories.map((category) => {
+    const button = document.createElement("button");
+
+    button.className = "template-filter";
+    button.classList.toggle("is-active", category === state.templateCategory);
+    button.type = "button";
+    button.textContent = category;
+    button.addEventListener("click", () => {
+      state.templateCategory = category;
+      renderTemplateCategories();
+      renderTemplates();
+    });
+    return button;
+  });
+
+  elements.templateCategories.replaceChildren(...buttons);
+}
+
 function openTemplateDialog() {
   const selectedDate = elements.taskDate.value || localDateString();
   elements.templateDate.textContent = dateFormatter.format(new Date(`${selectedDate}T12:00:00`));
@@ -278,6 +304,7 @@ function initialize() {
       render();
     });
   });
+  renderTemplateCategories();
   renderTemplates();
   render();
 }
