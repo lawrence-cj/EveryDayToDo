@@ -1561,4 +1561,15 @@ window.EveryDayToDoTemplates = [
       { title: "Delete duplicates and defer items without a current purpose", priority: "medium" },
     ],
   },
++  {
+    id: "next-actions",
+    title: "Next actions",
+    category: "Organization",
+    description: "Turn vague projects into actions that can begin now.",
+    tasks: [
+      { title: "Choose one active project that feels stalled", priority: "medium" },
+      { title: "Define the next physical or visible action", priority: "high" },
+      { title: "Place it on the right date or context list", priority: "medium" },
+    ],
+  },
 ];
