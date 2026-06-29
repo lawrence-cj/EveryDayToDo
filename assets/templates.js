@@ -1462,4 +1462,15 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare a personal note or small detail that adds care", priority: "low" },
     ],
   },
++  {
+    id: "daily-reflection",
+    title: "Daily reflection",
+    category: "Reflection",
+    description: "Close the day with a small amount of honest perspective.",
+    tasks: [
+      { title: "Record one thing that went well today", priority: "low" },
+      { title: "Name one challenge and what it taught you", priority: "medium" },
+      { title: "Choose one intention for tomorrow", priority: "medium" },
+    ],
+  },
 ];
