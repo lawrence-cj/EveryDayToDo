@@ -1253,4 +1253,15 @@ window.EveryDayToDoTemplates = [
       { title: "Update the current cash-flow or budget view", priority: "medium" },
     ],
   },
++  {
+    id: "idea-capture",
+    title: "Idea capture",
+    category: "Creative",
+    description: "Collect a creative thought before it disappears.",
+    tasks: [
+      { title: "Write the idea in one sentence without judging it", priority: "low" },
+      { title: "Add context, references, or the feeling worth preserving", priority: "medium" },
+      { title: "Choose whether to develop, save, or discard it later", priority: "low" },
+    ],
+  },
 ];
