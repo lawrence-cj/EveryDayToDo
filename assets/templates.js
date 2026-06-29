@@ -1539,4 +1539,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one small realignment for this week", priority: "medium" },
     ],
   },
++  {
+    id: "habit-audit",
+    title: "Habit audit",
+    category: "Reflection",
+    description: "Review habits by their actual effect, not intention.",
+    tasks: [
+      { title: "List routines that currently shape most days", priority: "medium" },
+      { title: "Identify one habit worth strengthening and one to reduce", priority: "high" },
+      { title: "Adjust the cue or environment for the next attempt", priority: "medium" },
+    ],
+  },
 ];
