@@ -978,4 +978,15 @@ window.EveryDayToDoTemplates = [
       { title: "Label leftovers with contents and date", priority: "low" },
     ],
   },
++  {
+    id: "laundry-cycle",
+    title: "Laundry cycle",
+    category: "Home",
+    description: "Finish the full laundry loop instead of stopping midway.",
+    tasks: [
+      { title: "Sort loads by care needs and collect required supplies", priority: "low" },
+      { title: "Wash and dry the highest-priority load first", priority: "medium" },
+      { title: "Fold, hang, and return clean items to their places", priority: "high" },
+    ],
+  },
 ];
