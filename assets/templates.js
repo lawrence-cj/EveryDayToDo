@@ -2034,4 +2034,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose an offline alternative for the recovered time", priority: "medium" },
     ],
   },
++  {
+    id: "hobby-time",
+    title: "Hobby time",
+    category: "Personal",
+    description: "Protect a small block for enjoyment without productivity pressure.",
+    tasks: [
+      { title: "Choose an activity that feels restorative or playful", priority: "low" },
+      { title: "Prepare what is needed before the time begins", priority: "low" },
+      { title: "Keep the time free from unrelated obligations", priority: "medium" },
+    ],
+  },
 ];
