@@ -703,4 +703,15 @@ window.EveryDayToDoTemplates = [
       { title: "Run targeted tests and document behavior changes", priority: "high" },
     ],
   },
++  {
+    id: "on-call-handoff",
+    title: "On-call handoff",
+    category: "Engineering",
+    description: "Transfer operational context before coverage changes.",
+    tasks: [
+      { title: "Summarize active incidents, alerts, and recent changes", priority: "high" },
+      { title: "Link dashboards, runbooks, and known workarounds", priority: "high" },
+      { title: "Confirm escalation paths and next ownership window", priority: "medium" },
+    ],
+  },
 ];
