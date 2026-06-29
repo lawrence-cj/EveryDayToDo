@@ -1143,4 +1143,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one small action within current control", priority: "high" },
     ],
   },
++  {
+    id: "preventive-care",
+    title: "Preventive care",
+    category: "Health",
+    description: "Keep routine health tasks from becoming overdue.",
+    tasks: [
+      { title: "Review due screenings, dental care, or routine checkups", priority: "medium" },
+      { title: "Book or confirm the next needed appointment", priority: "high" },
+      { title: "Save instructions, forms, and appointment details", priority: "low" },
+    ],
+  },
 ];
