@@ -1990,4 +1990,15 @@ window.EveryDayToDoTemplates = [
       { title: "Check account recovery methods and active sessions", priority: "medium" },
     ],
   },
++  {
+    id: "digital-notes-review",
+    title: "Digital notes review",
+    category: "Digital",
+    description: "Keep notes useful by resurfacing and consolidating them.",
+    tasks: [
+      { title: "Review recent notes for decisions, ideas, and actions", priority: "medium" },
+      { title: "Move useful material into a durable topic or project note", priority: "high" },
+      { title: "Archive duplicates and outdated fragments", priority: "low" },
+    ],
+  },
 ];
