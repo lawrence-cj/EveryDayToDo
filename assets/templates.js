@@ -1825,4 +1825,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one development action for this quarter", priority: "medium" },
     ],
   },
++  {
+    id: "promotion-packet",
+    title: "Promotion packet",
+    category: "Career",
+    description: "Collect evidence for a growth or promotion discussion.",
+    tasks: [
+      { title: "Map role expectations to recent measurable contributions", priority: "high" },
+      { title: "Gather feedback, artifacts, and examples of broader impact", priority: "high" },
+      { title: "Draft a concise growth narrative and next-step request", priority: "medium" },
+    ],
+  },
 ];
