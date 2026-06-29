@@ -318,4 +318,15 @@ window.EveryDayToDoTemplates = [
       { title: "Check links, calls to action, and mobile readability", priority: "high" },
     ],
   },
++  {
+    id: "documentation-pass",
+    title: "Documentation pass",
+    category: "Writing",
+    description: "Make an existing guide easier for a new reader to use.",
+    tasks: [
+      { title: "Identify the user goal the document should help complete", priority: "high" },
+      { title: "Add missing prerequisites, steps, and expected outcomes", priority: "high" },
+      { title: "Verify examples match the current product behavior", priority: "medium" },
+    ],
+  },
 ];
