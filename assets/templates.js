@@ -186,4 +186,15 @@ window.EveryDayToDoTemplates = [
       { title: "Agree on a check-in date and expected update format", priority: "medium" },
     ],
   },
++  {
+    id: "feedback-request",
+    title: "Feedback request",
+    category: "Work",
+    description: "Ask for feedback that is specific enough to act on.",
+    tasks: [
+      { title: "Choose the exact artifact or decision needing feedback", priority: "high" },
+      { title: "Ask two focused questions instead of a general review", priority: "medium" },
+      { title: "Set a response date and plan the follow-up", priority: "medium" },
+    ],
+  },
 ];
