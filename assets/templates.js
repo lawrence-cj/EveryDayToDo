@@ -1594,4 +1594,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose the first milestone action to schedule", priority: "medium" },
     ],
   },
++  {
+    id: "project-dashboard",
+    title: "Project dashboard",
+    category: "Organization",
+    description: "Create a simple current view of an active project.",
+    tasks: [
+      { title: "List goal, owner, deadline, and current project status", priority: "high" },
+      { title: "Record next actions, risks, and pending decisions", priority: "high" },
+      { title: "Choose a cadence for updating the dashboard", priority: "medium" },
+    ],
+  },
 ];
