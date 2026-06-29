@@ -1902,4 +1902,15 @@ window.EveryDayToDoTemplates = [
       { title: "Set the table and create a simple cleanup plan", priority: "low" },
     ],
   },
++  {
+    id: "community-meetup",
+    title: "Community meetup",
+    category: "Events",
+    description: "Organize a small gathering with clear communication.",
+    tasks: [
+      { title: "Choose purpose, location, time, and capacity", priority: "high" },
+      { title: "Publish the essential details and a contact channel", priority: "high" },
+      { title: "Prepare a simple welcome and closing structure", priority: "medium" },
+    ],
+  },
 ];
