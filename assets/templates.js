@@ -560,4 +560,15 @@ window.EveryDayToDoTemplates = [
       { title: "Adjust next week's study plan using that evidence", priority: "high" },
     ],
   },
++  {
+    id: "bug-triage",
+    title: "Bug triage",
+    category: "Engineering",
+    description: "Turn an incoming defect into a prioritized next action.",
+    tasks: [
+      { title: "Capture expected behavior, actual behavior, and impact", priority: "high" },
+      { title: "Reproduce the issue or record the missing evidence", priority: "high" },
+      { title: "Assign severity, owner, and an investigation next step", priority: "medium" },
+    ],
+  },
 ];
