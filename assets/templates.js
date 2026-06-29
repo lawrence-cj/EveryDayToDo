@@ -1572,4 +1572,15 @@ window.EveryDayToDoTemplates = [
       { title: "Place it on the right date or context list", priority: "medium" },
     ],
   },
++  {
+    id: "workspace-setup",
+    title: "Workspace setup",
+    category: "Organization",
+    description: "Prepare a work area for lower-friction focus.",
+    tasks: [
+      { title: "Clear the immediate surface and remove unrelated items", priority: "medium" },
+      { title: "Place needed tools, notes, and materials within reach", priority: "high" },
+      { title: "Set one environmental condition that supports focus", priority: "low" },
+    ],
+  },
 ];
