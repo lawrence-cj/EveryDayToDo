@@ -252,4 +252,15 @@ window.EveryDayToDoTemplates = [
       { title: "Mark gaps to research later instead of breaking momentum", priority: "medium" },
     ],
   },
++  {
+    id: "revision-pass",
+    title: "Revision pass",
+    category: "Writing",
+    description: "Improve clarity and structure after the first draft exists.",
+    tasks: [
+      { title: "Check that the opening states the reader benefit clearly", priority: "high" },
+      { title: "Cut repetition and move key points closer to the top", priority: "high" },
+      { title: "Read the piece aloud and fix awkward sentences", priority: "medium" },
+    ],
+  },
 ];
