@@ -494,4 +494,15 @@ window.EveryDayToDoTemplates = [
       { title: "Review mistakes and create a focused next session", priority: "medium" },
     ],
   },
++  {
+    id: "skill-practice",
+    title: "Skill practice",
+    category: "Learning",
+    description: "Improve a skill through feedback and repetition.",
+    tasks: [
+      { title: "Choose one narrow subskill to practice today", priority: "high" },
+      { title: "Complete a short deliberate practice exercise", priority: "high" },
+      { title: "Record feedback and the adjustment for next time", priority: "medium" },
+    ],
+  },
 ];
