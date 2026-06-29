@@ -1132,4 +1132,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record follow-up instructions and next appointment needs", priority: "medium" },
     ],
   },
++  {
+    id: "stress-reset",
+    title: "Stress reset",
+    category: "Health",
+    description: "Create a short pause before stress escalates further.",
+    tasks: [
+      { title: "Name the immediate source of pressure without judgment", priority: "medium" },
+      { title: "Take a brief breathing, walking, or grounding break", priority: "medium" },
+      { title: "Choose one small action within current control", priority: "high" },
+    ],
+  },
 ];
