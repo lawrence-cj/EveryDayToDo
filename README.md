@@ -233,3 +233,5 @@ python3 -m http.server 8000
 ```
 
 The planner supports adding dated tasks, setting priority, switching between today/upcoming/all/completed views, completing tasks, and clearing completed tasks. Tasks are kept in the browser's local storage, so no account or server is required.
+
+Use **Use a template** to add a small, reusable plan to the date currently selected in the task form. The template library supports keyword search and category filters, and it keeps the keyboard focus on the template button when the dialog closes.
