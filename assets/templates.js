@@ -274,4 +274,15 @@ window.EveryDayToDoTemplates = [
       { title: "Write implications and unanswered questions separately", priority: "medium" },
     ],
   },
++  {
+    id: "editorial-calendar",
+    title: "Editorial calendar",
+    category: "Writing",
+    description: "Plan a coherent sequence of published work.",
+    tasks: [
+      { title: "List audience questions worth answering this month", priority: "high" },
+      { title: "Choose a balanced set of topics and formats", priority: "medium" },
+      { title: "Assign each piece an owner, date, and working title", priority: "high" },
+    ],
+  },
 ];
