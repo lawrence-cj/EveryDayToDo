@@ -41,6 +41,7 @@ const elements = {
   templateDialog: document.querySelector("#template-dialog"),
   templateDate: document.querySelector("#template-date"),
   templateList: document.querySelector("#template-list"),
+  templateResults: document.querySelector("#template-results"),
   templateSearch: document.querySelector("#template-search"),
 };
 
@@ -249,6 +250,7 @@ function renderTemplates() {
   });
 
   elements.templateList.replaceChildren(...cards);
+  elements.templateResults.textContent = `Showing ${pluralize(matchingTemplates.length, "template")}`;
 }
 
 function openTemplateDialog() {
