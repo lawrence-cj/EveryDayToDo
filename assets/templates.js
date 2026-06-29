@@ -263,4 +263,15 @@ window.EveryDayToDoTemplates = [
       { title: "Read the piece aloud and fix awkward sentences", priority: "medium" },
     ],
   },
++  {
+    id: "research-summary",
+    title: "Research summary",
+    category: "Writing",
+    description: "Turn source material into a concise, useful brief.",
+    tasks: [
+      { title: "Identify the question the summary must answer", priority: "high" },
+      { title: "Extract three supported findings with source links", priority: "high" },
+      { title: "Write implications and unanswered questions separately", priority: "medium" },
+    ],
+  },
 ];
