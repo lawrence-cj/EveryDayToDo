@@ -1308,4 +1308,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record a short sample and note the next adjustment", priority: "medium" },
     ],
   },
++  {
+    id: "creative-critique",
+    title: "Creative critique",
+    category: "Creative",
+    description: "Review a creative work with useful, specific feedback.",
+    tasks: [
+      { title: "State the intended audience, emotion, or message", priority: "medium" },
+      { title: "Identify what already works before naming improvements", priority: "medium" },
+      { title: "Choose one revision that strengthens the core intention", priority: "high" },
+    ],
+  },
 ];
