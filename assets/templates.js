@@ -1682,4 +1682,15 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare a concise discussion contribution", priority: "high" },
     ],
   },
++  {
+    id: "group-project",
+    title: "Group project",
+    category: "Academic",
+    description: "Coordinate shared academic work without ambiguity.",
+    tasks: [
+      { title: "Agree on scope, milestones, communication, and roles", priority: "high" },
+      { title: "Assign the first set of concrete deliverables", priority: "high" },
+      { title: "Set a check-in date before the next deadline", priority: "medium" },
+    ],
+  },
 ];
