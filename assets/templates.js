@@ -2023,4 +2023,15 @@ window.EveryDayToDoTemplates = [
       { title: "Cancel unused seats or document renewal decisions", priority: "medium" },
     ],
   },
++  {
+    id: "screen-time-plan",
+    title: "Screen time plan",
+    category: "Digital",
+    description: "Set practical boundaries around nonessential screen use.",
+    tasks: [
+      { title: "Identify the apps or times that feel least intentional", priority: "medium" },
+      { title: "Set one realistic limit or friction point", priority: "high" },
+      { title: "Choose an offline alternative for the recovered time", priority: "medium" },
+    ],
+  },
 ];
