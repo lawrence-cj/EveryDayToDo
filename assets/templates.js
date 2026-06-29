@@ -1957,4 +1957,15 @@ window.EveryDayToDoTemplates = [
       { title: "Organize useful links into a small bookmark structure", priority: "low" },
     ],
   },
++  {
+    id: "file-backup",
+    title: "File backup",
+    category: "Digital",
+    description: "Verify that important current files have a reliable copy.",
+    tasks: [
+      { title: "Identify work and personal folders that changed recently", priority: "medium" },
+      { title: "Run or verify a backup to a separate location", priority: "high" },
+      { title: "Test restoring one noncritical file from the backup", priority: "high" },
+    ],
+  },
 ];
