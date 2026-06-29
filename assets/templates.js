@@ -1484,4 +1484,15 @@ window.EveryDayToDoTemplates = [
       { title: "Set next week's priorities from that evidence", priority: "high" },
     ],
   },
++  {
+    id: "decision-journal",
+    title: "Decision journal",
+    category: "Reflection",
+    description: "Record the thinking behind an important choice.",
+    tasks: [
+      { title: "Write the decision, context, and options considered", priority: "high" },
+      { title: "State the assumptions and expected outcome", priority: "high" },
+      { title: "Set a date to review what actually happened", priority: "medium" },
+    ],
+  },
 ];
