@@ -175,4 +175,15 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule the first concrete action today", priority: "medium" },
     ],
   },
++  {
+    id: "delegation-review",
+    title: "Delegation review",
+    category: "Work",
+    description: "Hand work off with clear ownership and follow-through.",
+    tasks: [
+      { title: "Define the outcome, constraints, and decision authority", priority: "high" },
+      { title: "Share the context and resources needed to proceed", priority: "high" },
+      { title: "Agree on a check-in date and expected update format", priority: "medium" },
+    ],
+  },
 ];
