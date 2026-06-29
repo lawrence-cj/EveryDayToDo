@@ -1033,4 +1033,15 @@ window.EveryDayToDoTemplates = [
       { title: "Note supplies or seasonal tasks for the next visit", priority: "low" },
     ],
   },
++  {
+    id: "pet-care",
+    title: "Pet care",
+    category: "Home",
+    description: "Keep routine care and supplies organized for a pet.",
+    tasks: [
+      { title: "Check food, medication, and grooming supplies", priority: "medium" },
+      { title: "Schedule or complete the next care activity", priority: "high" },
+      { title: "Update any notes on behavior, health, or routine", priority: "low" },
+    ],
+  },
 ];
