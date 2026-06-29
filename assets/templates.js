@@ -648,4 +648,15 @@ window.EveryDayToDoTemplates = [
       { title: "Document residual risks and required follow-up", priority: "medium" },
     ],
   },
++  {
+    id: "test-plan",
+    title: "Test plan",
+    category: "Engineering",
+    description: "Describe how a change will be verified with confidence.",
+    tasks: [
+      { title: "List core success paths and meaningful failure paths", priority: "high" },
+      { title: "Choose automated, manual, and integration coverage", priority: "high" },
+      { title: "Define test data and release acceptance criteria", priority: "medium" },
+    ],
+  },
 ];
