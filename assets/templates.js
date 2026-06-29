@@ -901,4 +901,15 @@ window.EveryDayToDoTemplates = [
       { title: "Decline, shorten, or delegate low-value meetings", priority: "high" },
     ],
   },
++  {
+    id: "contact-update",
+    title: "Contact update",
+    category: "Admin",
+    description: "Keep important contact information reliable.",
+    tasks: [
+      { title: "Identify contacts with missing or outdated details", priority: "low" },
+      { title: "Update key fields and add useful context notes", priority: "medium" },
+      { title: "Choose one relationship that needs a follow-up", priority: "high" },
+    ],
+  },
 ];
