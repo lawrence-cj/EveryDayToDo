@@ -1946,4 +1946,15 @@ window.EveryDayToDoTemplates = [
       { title: "Remove unused apps and restart the device", priority: "low" },
     ],
   },
++  {
+    id: "browser-cleanup",
+    title: "Browser cleanup",
+    category: "Digital",
+    description: "Reduce tab overload and make useful resources findable.",
+    tasks: [
+      { title: "Save or capture the few tabs that need future action", priority: "medium" },
+      { title: "Close stale tabs and remove unused extensions", priority: "high" },
+      { title: "Organize useful links into a small bookmark structure", priority: "low" },
+    ],
+  },
 ];
