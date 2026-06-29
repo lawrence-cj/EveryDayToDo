@@ -1660,4 +1660,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record citations, open questions, and the next entry point", priority: "medium" },
     ],
   },
++  {
+    id: "lecture-preparation",
+    title: "Lecture preparation",
+    category: "Academic",
+    description: "Prepare to learn actively from an upcoming lecture.",
+    tasks: [
+      { title: "Review the topic, assigned reading, and prior notes", priority: "medium" },
+      { title: "Write two questions to listen for during the lecture", priority: "high" },
+      { title: "Prepare a note structure for examples and key terms", priority: "low" },
+    ],
+  },
 ];
