@@ -1385,4 +1385,15 @@ window.EveryDayToDoTemplates = [
       { title: "Review messages and choose the first workday priority", priority: "high" },
     ],
   },
++  {
+    id: "local-day-trip",
+    title: "Local day trip",
+    category: "Travel",
+    description: "Plan a refreshing outing close to home.",
+    tasks: [
+      { title: "Choose a destination, travel window, and weather backup", priority: "medium" },
+      { title: "Prepare essentials, route, and reservation details", priority: "medium" },
+      { title: "Leave enough time to return without rushing", priority: "low" },
+    ],
+  },
 ];
