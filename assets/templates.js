@@ -791,4 +791,15 @@ window.EveryDayToDoTemplates = [
       { title: "Confirm dependencies, owners, and the first actions", priority: "medium" },
     ],
   },
++  {
+    id: "demo-preparation",
+    title: "Demo preparation",
+    category: "Meetings",
+    description: "Show progress through a reliable, audience-ready story.",
+    tasks: [
+      { title: "Choose the workflow or outcome worth demonstrating", priority: "high" },
+      { title: "Prepare realistic data and a backup path", priority: "high" },
+      { title: "Rehearse the narrative and keep time for questions", priority: "medium" },
+    ],
+  },
 ];
