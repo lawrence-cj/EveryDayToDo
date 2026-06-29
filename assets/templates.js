@@ -1011,4 +1011,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record the date and next recommended check", priority: "low" },
     ],
   },
++  {
+    id: "moving-preparation",
+    title: "Moving preparation",
+    category: "Home",
+    description: "Break a move into manageable, low-surprise steps.",
+    tasks: [
+      { title: "List deadlines, service changes, and key contacts", priority: "high" },
+      { title: "Pack one category and label boxes by destination", priority: "medium" },
+      { title: "Set aside essentials needed for the first day", priority: "high" },
+    ],
+  },
 ];
