@@ -736,4 +736,15 @@ window.EveryDayToDoTemplates = [
       { title: "Capture commitments and schedule the next follow-up", priority: "medium" },
     ],
   },
++  {
+    id: "decision-meeting",
+    title: "Decision meeting",
+    category: "Meetings",
+    description: "Bring the right people together to make one decision.",
+    tasks: [
+      { title: "State the decision, owner, and deadline in advance", priority: "high" },
+      { title: "Share options and decision criteria before the meeting", priority: "high" },
+      { title: "Record the decision, rationale, and resulting actions", priority: "high" },
+    ],
+  },
 ];
