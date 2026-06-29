@@ -813,4 +813,15 @@ window.EveryDayToDoTemplates = [
       { title: "Align scoring criteria with the interview panel", priority: "medium" },
     ],
   },
++  {
+    id: "conflict-resolution",
+    title: "Conflict resolution",
+    category: "Meetings",
+    description: "Address disagreement while preserving a working relationship.",
+    tasks: [
+      { title: "Separate observed facts from assumptions and judgments", priority: "high" },
+      { title: "State needs, concerns, and shared goals clearly", priority: "high" },
+      { title: "Agree on one next action and a review point", priority: "medium" },
+    ],
+  },
 ];
