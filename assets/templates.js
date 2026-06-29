@@ -956,4 +956,15 @@ window.EveryDayToDoTemplates = [
       { title: "Restock one essential household supply", priority: "low" },
     ],
   },
++  {
+    id: "grocery-plan",
+    title: "Grocery plan",
+    category: "Home",
+    description: "Buy what the week needs without duplicate shopping.",
+    tasks: [
+      { title: "Check pantry, fridge, and household essentials", priority: "medium" },
+      { title: "Plan a short list of meals or staples for the week", priority: "high" },
+      { title: "Group the list by store section before shopping", priority: "low" },
+    ],
+  },
 ];
