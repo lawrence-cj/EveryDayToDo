@@ -1055,4 +1055,15 @@ window.EveryDayToDoTemplates = [
       { title: "Add buffers for meals, rest, and unexpected changes", priority: "medium" },
     ],
   },
++  {
+    id: "morning-movement",
+    title: "Morning movement",
+    category: "Health",
+    description: "Start the day with a short, repeatable movement routine.",
+    tasks: [
+      { title: "Choose a gentle movement goal that fits available time", priority: "low" },
+      { title: "Complete a warm-up and the planned movement session", priority: "medium" },
+      { title: "Note energy, discomfort, or a reason to adjust tomorrow", priority: "low" },
+    ],
+  },
 ];
