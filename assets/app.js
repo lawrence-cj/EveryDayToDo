@@ -38,6 +38,7 @@ const elements = {
   closeTemplates: document.querySelector("#close-templates"),
   openTemplates: document.querySelector("#open-templates"),
   templateDialog: document.querySelector("#template-dialog"),
+  templateDate: document.querySelector("#template-date"),
   templateList: document.querySelector("#template-list"),
 };
 
@@ -236,12 +237,18 @@ function renderTemplates() {
   elements.templateList.replaceChildren(...cards);
 }
 
+function openTemplateDialog() {
+  const selectedDate = elements.taskDate.value || localDateString();
+  elements.templateDate.textContent = dateFormatter.format(new Date(`${selectedDate}T12:00:00`));
+  elements.templateDialog.showModal();
+}
+
 function initialize() {
   elements.todayDate.textContent = dateFormatter.format(new Date());
   elements.taskDate.value = localDateString();
   elements.form.addEventListener("submit", createTask);
   elements.clearCompleted.addEventListener("click", clearCompleted);
-  elements.openTemplates.addEventListener("click", () => elements.templateDialog.showModal());
+  elements.openTemplates.addEventListener("click", openTemplateDialog);
   elements.closeTemplates.addEventListener("click", () => elements.templateDialog.close());
   elements.filters.forEach((filter) => {
     filter.addEventListener("click", () => {
