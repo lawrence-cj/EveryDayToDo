@@ -758,4 +758,15 @@ window.EveryDayToDoTemplates = [
       { title: "Group ideas and choose candidates to explore next", priority: "high" },
     ],
   },
++  {
+    id: "stakeholder-sync",
+    title: "Stakeholder sync",
+    category: "Meetings",
+    description: "Keep stakeholders aligned on progress and tradeoffs.",
+    tasks: [
+      { title: "Share the current goal, progress, and latest evidence", priority: "medium" },
+      { title: "Raise decisions, risks, or dependencies needing support", priority: "high" },
+      { title: "Confirm owners and dates for agreed next steps", priority: "high" },
+    ],
+  },
 ];
