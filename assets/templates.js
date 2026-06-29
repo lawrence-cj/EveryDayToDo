@@ -241,4 +241,15 @@ window.EveryDayToDoTemplates = [
       { title: "Collect the evidence, examples, and links to support it", priority: "medium" },
     ],
   },
++  {
+    id: "first-draft",
+    title: "First draft",
+    category: "Writing",
+    description: "Get a complete version onto the page without overediting.",
+    tasks: [
+      { title: "Create a simple outline with a beginning, middle, and end", priority: "medium" },
+      { title: "Draft continuously until every section has content", priority: "high" },
+      { title: "Mark gaps to research later instead of breaking momentum", priority: "medium" },
+    ],
+  },
 ];
