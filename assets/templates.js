@@ -65,4 +65,15 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule or defer work that no longer fits today", priority: "medium" },
     ],
   },
++  {
+    id: "end-of-day-shutdown",
+    title: "End-of-day shutdown",
+    category: "Focus",
+    description: "Close the day with a clean handoff to tomorrow.",
+    tasks: [
+      { title: "Capture unfinished work in a trusted task list", priority: "high" },
+      { title: "Choose the first task to begin tomorrow", priority: "medium" },
+      { title: "Close work tools and clear the physical workspace", priority: "low" },
+    ],
+  },
 ];
