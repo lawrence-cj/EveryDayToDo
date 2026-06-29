@@ -384,4 +384,15 @@ window.EveryDayToDoTemplates = [
       { title: "Pilot the survey with one representative respondent", priority: "medium" },
     ],
   },
++  {
+    id: "data-audit",
+    title: "Data audit",
+    category: "Research",
+    description: "Assess whether a dataset is fit for the intended analysis.",
+    tasks: [
+      { title: "Document source, collection method, and update cadence", priority: "high" },
+      { title: "Check completeness, consistency, and obvious anomalies", priority: "high" },
+      { title: "Record limitations that affect interpretation", priority: "medium" },
+    ],
+  },
 ];
