@@ -1319,4 +1319,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one revision that strengthens the core intention", priority: "high" },
     ],
   },
++  {
+    id: "creative-project-wrap",
+    title: "Creative project wrap",
+    category: "Creative",
+    description: "Close a creative project and preserve lessons for later.",
+    tasks: [
+      { title: "Organize final files, sources, and shareable versions", priority: "high" },
+      { title: "Write what the project taught about process or craft", priority: "medium" },
+      { title: "Choose whether to publish, archive, or extend the work", priority: "medium" },
+    ],
+  },
 ];
