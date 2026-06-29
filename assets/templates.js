@@ -2067,4 +2067,15 @@ window.EveryDayToDoTemplates = [
       { title: "Remove one avoidable source of pressure for today", priority: "medium" },
     ],
   },
++  {
+    id: "personal-goal-check",
+    title: "Personal goal check",
+    category: "Personal",
+    description: "Review a personal goal and keep its next step realistic.",
+    tasks: [
+      { title: "Review the goal, current progress, and why it still matters", priority: "high" },
+      { title: "Identify a constraint or obstacle worth addressing", priority: "medium" },
+      { title: "Choose one next action small enough for this week", priority: "high" },
+    ],
+  },
 ];
