@@ -725,4 +725,15 @@ window.EveryDayToDoTemplates = [
       { title: "Review naming, authentication, and pagination choices", priority: "medium" },
     ],
   },
++  {
+    id: "one-on-one",
+    title: "One-on-one",
+    category: "Meetings",
+    description: "Prepare a useful conversation with a teammate or manager.",
+    tasks: [
+      { title: "Review prior action items and current context", priority: "medium" },
+      { title: "Choose one topic for support, feedback, or alignment", priority: "high" },
+      { title: "Capture commitments and schedule the next follow-up", priority: "medium" },
+    ],
+  },
 ];
