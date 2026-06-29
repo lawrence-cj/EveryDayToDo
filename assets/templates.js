@@ -1759,4 +1759,15 @@ window.EveryDayToDoTemplates = [
       { title: "Check formatting, links, and contact details", priority: "medium" },
     ],
   },
++  {
+    id: "career-conversation",
+    title: "Career conversation",
+    category: "Career",
+    description: "Prepare a useful discussion about growth or next steps.",
+    tasks: [
+      { title: "Clarify the career question or opportunity to discuss", priority: "high" },
+      { title: "Bring examples of strengths, interests, and recent work", priority: "medium" },
+      { title: "Leave with one action, connection, or follow-up date", priority: "high" },
+    ],
+  },
 ];
