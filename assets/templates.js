@@ -1451,4 +1451,15 @@ window.EveryDayToDoTemplates = [
       { title: "Agree on the next step or restate the boundary calmly", priority: "medium" },
     ],
   },
++  {
+    id: "celebration-planning",
+    title: "Celebration planning",
+    category: "Relationships",
+    description: "Plan a meaningful moment for someone important.",
+    tasks: [
+      { title: "Choose what would feel thoughtful for the person", priority: "medium" },
+      { title: "Confirm date, budget, and any needed reservations", priority: "high" },
+      { title: "Prepare a personal note or small detail that adds care", priority: "low" },
+    ],
+  },
 ];
