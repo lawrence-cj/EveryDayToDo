@@ -1726,4 +1726,15 @@ window.EveryDayToDoTemplates = [
       { title: "Request feedback on the most uncertain assumption", priority: "medium" },
     ],
   },
++  {
+    id: "citation-cleanup",
+    title: "Citation cleanup",
+    category: "Academic",
+    description: "Make source references accurate and consistent.",
+    tasks: [
+      { title: "Check that every claim needing support has a source", priority: "high" },
+      { title: "Standardize citation style and bibliography fields", priority: "medium" },
+      { title: "Verify links, page numbers, and source metadata", priority: "high" },
+    ],
+  },
 ];
