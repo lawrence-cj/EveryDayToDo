@@ -2001,4 +2001,15 @@ window.EveryDayToDoTemplates = [
       { title: "Archive duplicates and outdated fragments", priority: "low" },
     ],
   },
++  {
+    id: "content-queue",
+    title: "Content queue",
+    category: "Digital",
+    description: "Organize saved media into an intentional consumption list.",
+    tasks: [
+      { title: "Review saved articles, videos, and links", priority: "low" },
+      { title: "Keep only items connected to a current interest or goal", priority: "medium" },
+      { title: "Schedule one item to read, watch, or delete this week", priority: "low" },
+    ],
+  },
 ];
