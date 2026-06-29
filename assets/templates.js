@@ -1473,4 +1473,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one intention for tomorrow", priority: "medium" },
     ],
   },
++  {
+    id: "weekly-review",
+    title: "Weekly review",
+    category: "Reflection",
+    description: "Review the week before planning another one.",
+    tasks: [
+      { title: "Review completed work, open loops, and calendar notes", priority: "medium" },
+      { title: "Identify one pattern worth keeping and one to change", priority: "high" },
+      { title: "Set next week's priorities from that evidence", priority: "high" },
+    ],
+  },
 ];
