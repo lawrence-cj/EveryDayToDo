@@ -857,4 +857,15 @@ window.EveryDayToDoTemplates = [
       { title: "Submit the report and note its approval status", priority: "medium" },
     ],
   },
++  {
+    id: "file-cleanup",
+    title: "File cleanup",
+    category: "Admin",
+    description: "Make important files easier to find and trust.",
+    tasks: [
+      { title: "Choose one folder or workspace with the highest friction", priority: "medium" },
+      { title: "Archive obsolete copies and rename active files consistently", priority: "high" },
+      { title: "Create a simple home for future incoming files", priority: "medium" },
+    ],
+  },
 ];
