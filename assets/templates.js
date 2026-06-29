@@ -406,4 +406,15 @@ window.EveryDayToDoTemplates = [
       { title: "Write the decision rule before looking at results", priority: "medium" },
     ],
   },
++  {
+    id: "analysis-plan",
+    title: "Analysis plan",
+    category: "Research",
+    description: "Choose an analysis path before the data arrives.",
+    tasks: [
+      { title: "List the primary question and supporting questions", priority: "high" },
+      { title: "Define required fields, segments, and comparisons", priority: "high" },
+      { title: "Document how missing data and outliers will be handled", priority: "medium" },
+    ],
+  },
 ];
