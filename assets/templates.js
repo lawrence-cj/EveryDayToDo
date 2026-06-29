@@ -1330,4 +1330,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose whether to publish, archive, or extend the work", priority: "medium" },
     ],
   },
++  {
+    id: "trip-outline",
+    title: "Trip outline",
+    category: "Travel",
+    description: "Set the purpose, dates, and non-negotiables for a trip.",
+    tasks: [
+      { title: "Confirm destination, dates, and travel constraints", priority: "high" },
+      { title: "List reservations and documents needed before departure", priority: "high" },
+      { title: "Choose one flexible priority for each travel day", priority: "medium" },
+    ],
+  },
 ];
