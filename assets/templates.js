@@ -1429,4 +1429,15 @@ window.EveryDayToDoTemplates = [
       { title: "Confirm any next steps or practical support", priority: "medium" },
     ],
   },
++  {
+    id: "shared-planning",
+    title: "Shared planning",
+    category: "Relationships",
+    description: "Coordinate a plan with another person respectfully.",
+    tasks: [
+      { title: "Bring available dates, preferences, and constraints", priority: "medium" },
+      { title: "Discuss priorities and tradeoffs openly", priority: "high" },
+      { title: "Confirm the plan in a shared place", priority: "medium" },
+    ],
+  },
 ];
