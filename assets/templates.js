@@ -428,4 +428,15 @@ window.EveryDayToDoTemplates = [
       { title: "Identify the most important open question", priority: "medium" },
     ],
   },
++  {
+    id: "competitor-study",
+    title: "Competitor study",
+    category: "Research",
+    description: "Compare alternatives without losing sight of user needs.",
+    tasks: [
+      { title: "Choose competitors or alternatives relevant to the use case", priority: "medium" },
+      { title: "Compare workflows, strengths, and tradeoffs consistently", priority: "high" },
+      { title: "Summarize opportunities instead of copying features", priority: "high" },
+    ],
+  },
 ];
