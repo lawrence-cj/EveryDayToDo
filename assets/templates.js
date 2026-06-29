@@ -1737,4 +1737,15 @@ window.EveryDayToDoTemplates = [
       { title: "Verify links, page numbers, and source metadata", priority: "high" },
     ],
   },
++  {
+    id: "exam-week",
+    title: "Exam week",
+    category: "Academic",
+    description: "Balance multiple assessments without last-minute chaos.",
+    tasks: [
+      { title: "List exam dates, formats, and the most important topics", priority: "high" },
+      { title: "Assign focused study blocks by urgency and confidence", priority: "high" },
+      { title: "Protect sleep, meals, and short breaks in the schedule", priority: "medium" },
+    ],
+  },
 ];
