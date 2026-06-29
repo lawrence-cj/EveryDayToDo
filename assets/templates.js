@@ -1550,4 +1550,15 @@ window.EveryDayToDoTemplates = [
       { title: "Adjust the cue or environment for the next attempt", priority: "medium" },
     ],
   },
++  {
+    id: "capture-inbox",
+    title: "Capture inbox",
+    category: "Organization",
+    description: "Move scattered reminders into one trusted list.",
+    tasks: [
+      { title: "Collect notes, tabs, messages, and loose reminders", priority: "medium" },
+      { title: "Write each item as a clear next action or reference", priority: "high" },
+      { title: "Delete duplicates and defer items without a current purpose", priority: "medium" },
+    ],
+  },
 ];
