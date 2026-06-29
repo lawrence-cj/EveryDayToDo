@@ -1165,4 +1165,15 @@ window.EveryDayToDoTemplates = [
       { title: "Return with one clear task to resume", priority: "medium" },
     ],
   },
++  {
+    id: "monthly-budget",
+    title: "Monthly budget",
+    category: "Finance",
+    description: "Review spending and give the next month a clear plan.",
+    tasks: [
+      { title: "Compare recent spending with income and planned categories", priority: "high" },
+      { title: "Adjust upcoming limits for known expenses", priority: "high" },
+      { title: "Choose one saving or debt action for the month", priority: "medium" },
+    ],
+  },
 ];
