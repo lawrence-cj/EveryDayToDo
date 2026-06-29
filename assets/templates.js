@@ -1836,4 +1836,15 @@ window.EveryDayToDoTemplates = [
       { title: "Draft a concise growth narrative and next-step request", priority: "medium" },
     ],
   },
++  {
+    id: "event-planning",
+    title: "Event planning",
+    category: "Events",
+    description: "Plan a small event with clear ownership and timing.",
+    tasks: [
+      { title: "Confirm purpose, date, budget, and attendee list", priority: "high" },
+      { title: "Book location or platform and outline the schedule", priority: "high" },
+      { title: "Send invitations and track needed responses", priority: "medium" },
+    ],
+  },
 ];
