@@ -131,4 +131,15 @@ window.EveryDayToDoTemplates = [
       { title: "Reserve focus blocks for the most important outcome", priority: "medium" },
     ],
   },
++  {
+    id: "project-kickoff",
+    title: "Project kickoff",
+    category: "Work",
+    description: "Turn a new assignment into an aligned first plan.",
+    tasks: [
+      { title: "Write the goal, scope, and success criteria", priority: "high" },
+      { title: "Identify owners, stakeholders, and decision makers", priority: "high" },
+      { title: "Schedule the first milestone and next review", priority: "medium" },
+    ],
+  },
 ];
