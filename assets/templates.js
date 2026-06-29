@@ -1121,4 +1121,15 @@ window.EveryDayToDoTemplates = [
       { title: "Notice whether activity or weather changes your needs", priority: "low" },
     ],
   },
++  {
+    id: "medical-appointment",
+    title: "Medical appointment",
+    category: "Health",
+    description: "Prepare questions and records for a health appointment.",
+    tasks: [
+      { title: "Write current symptoms, changes, and relevant history", priority: "high" },
+      { title: "List medications, questions, and desired outcomes", priority: "high" },
+      { title: "Record follow-up instructions and next appointment needs", priority: "medium" },
+    ],
+  },
 ];
