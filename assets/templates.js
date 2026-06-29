@@ -1979,4 +1979,15 @@ window.EveryDayToDoTemplates = [
       { title: "Keep only critical people, deadlines, and safety alerts", priority: "medium" },
     ],
   },
++  {
+    id: "privacy-check",
+    title: "Privacy check",
+    category: "Digital",
+    description: "Review basic account and app privacy settings.",
+    tasks: [
+      { title: "Review permissions for location, contacts, camera, and data", priority: "high" },
+      { title: "Remove access from apps or services no longer used", priority: "high" },
+      { title: "Check account recovery methods and active sessions", priority: "medium" },
+    ],
+  },
 ];
