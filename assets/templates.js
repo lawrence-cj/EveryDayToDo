@@ -197,4 +197,15 @@ window.EveryDayToDoTemplates = [
       { title: "Set a response date and plan the follow-up", priority: "medium" },
     ],
   },
++  {
+    id: "team-handoff",
+    title: "Team handoff",
+    category: "Work",
+    description: "Transfer ownership without losing crucial context.",
+    tasks: [
+      { title: "Document current state, open decisions, and known risks", priority: "high" },
+      { title: "Share the location of source files and supporting material", priority: "high" },
+      { title: "Confirm the receiving owner and next checkpoint", priority: "medium" },
+    ],
+  },
 ];
