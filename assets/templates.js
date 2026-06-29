@@ -307,4 +307,15 @@ window.EveryDayToDoTemplates = [
       { title: "Gather evidence of results and lessons learned", priority: "high" },
     ],
   },
++  {
+    id: "newsletter-issue",
+    title: "Newsletter issue",
+    category: "Writing",
+    description: "Prepare a concise update readers will open and finish.",
+    tasks: [
+      { title: "Choose one main idea and a supporting secondary item", priority: "high" },
+      { title: "Write a specific subject line and opening hook", priority: "medium" },
+      { title: "Check links, calls to action, and mobile readability", priority: "high" },
+    ],
+  },
 ];
