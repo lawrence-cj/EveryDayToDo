@@ -1220,4 +1220,15 @@ window.EveryDayToDoTemplates = [
       { title: "Wait for a planned review point before buying", priority: "low" },
     ],
   },
++  {
+    id: "insurance-review",
+    title: "Insurance review",
+    category: "Finance",
+    description: "Check whether coverage still matches current circumstances.",
+    tasks: [
+      { title: "Review active policies, coverage amounts, and renewal dates", priority: "medium" },
+      { title: "Identify life changes that may affect needed coverage", priority: "high" },
+      { title: "List questions for the insurer or an independent adviser", priority: "medium" },
+    ],
+  },
 ];
