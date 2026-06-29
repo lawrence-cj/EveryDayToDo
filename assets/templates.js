@@ -1803,4 +1803,15 @@ window.EveryDayToDoTemplates = [
       { title: "Note any promised material and the follow-up timeline", priority: "high" },
     ],
   },
++  {
+    id: "skills-portfolio",
+    title: "Skills portfolio",
+    category: "Career",
+    description: "Make current skills and evidence easy to communicate.",
+    tasks: [
+      { title: "List the skills most relevant to your next opportunity", priority: "high" },
+      { title: "Pair each skill with a concrete example or artifact", priority: "high" },
+      { title: "Identify one missing skill to develop next", priority: "medium" },
+    ],
+  },
 ];
