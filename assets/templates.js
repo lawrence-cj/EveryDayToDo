@@ -1440,4 +1440,15 @@ window.EveryDayToDoTemplates = [
       { title: "Confirm the plan in a shared place", priority: "medium" },
     ],
   },
++  {
+    id: "boundary-conversation",
+    title: "Boundary conversation",
+    category: "Relationships",
+    description: "Set a limit clearly while preserving respect.",
+    tasks: [
+      { title: "Clarify the behavior, request, or limit that matters", priority: "high" },
+      { title: "Use direct language focused on needs and impact", priority: "high" },
+      { title: "Agree on the next step or restate the boundary calmly", priority: "medium" },
+    ],
+  },
 ];
