@@ -571,4 +571,15 @@ window.EveryDayToDoTemplates = [
       { title: "Assign severity, owner, and an investigation next step", priority: "medium" },
     ],
   },
++  {
+    id: "feature-discovery",
+    title: "Feature discovery",
+    category: "Engineering",
+    description: "Understand a requested feature before implementation begins.",
+    tasks: [
+      { title: "Define the user problem and success signal", priority: "high" },
+      { title: "Map affected flows, systems, and edge cases", priority: "high" },
+      { title: "List open decisions and validate assumptions early", priority: "medium" },
+    ],
+  },
 ];
