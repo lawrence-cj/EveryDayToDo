@@ -285,4 +285,15 @@ window.EveryDayToDoTemplates = [
       { title: "Assign each piece an owner, date, and working title", priority: "high" },
     ],
   },
++  {
+    id: "presentation-narrative",
+    title: "Presentation narrative",
+    category: "Writing",
+    description: "Shape slides around a message instead of a collection of facts.",
+    tasks: [
+      { title: "Write the audience decision or action the deck should drive", priority: "high" },
+      { title: "Draft a one-sentence headline for every major section", priority: "high" },
+      { title: "Remove details that do not strengthen the core narrative", priority: "medium" },
+    ],
+  },
 ];
