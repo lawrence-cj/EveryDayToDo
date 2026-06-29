@@ -153,4 +153,15 @@ window.EveryDayToDoTemplates = [
       { title: "Send the handoff with a clear feedback deadline", priority: "medium" },
     ],
   },
++  {
+    id: "status-update",
+    title: "Status update",
+    category: "Work",
+    description: "Communicate progress, risks, and next steps clearly.",
+    tasks: [
+      { title: "Summarize completed work in outcome-focused language", priority: "medium" },
+      { title: "Name active risks, blockers, and requested decisions", priority: "high" },
+      { title: "State the next milestone with its expected date", priority: "medium" },
+    ],
+  },
 ];
