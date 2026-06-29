@@ -439,4 +439,15 @@ window.EveryDayToDoTemplates = [
       { title: "Summarize opportunities instead of copying features", priority: "high" },
     ],
   },
++  {
+    id: "usability-test",
+    title: "Usability test",
+    category: "Research",
+    description: "Observe whether people can complete a key task.",
+    tasks: [
+      { title: "Choose one realistic task and a clear success condition", priority: "high" },
+      { title: "Prepare neutral prompts and a note-taking structure", priority: "medium" },
+      { title: "Review patterns across sessions before recommending changes", priority: "high" },
+    ],
+  },
 ];
