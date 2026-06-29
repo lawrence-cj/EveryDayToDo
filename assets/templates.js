@@ -626,4 +626,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record the decision, consequences, and review trigger", priority: "medium" },
     ],
   },
++  {
+    id: "performance-profile",
+    title: "Performance profile",
+    category: "Engineering",
+    description: "Measure before optimizing a slow or expensive path.",
+    tasks: [
+      { title: "Define the user scenario and baseline performance metric", priority: "high" },
+      { title: "Capture a profile or trace that identifies the bottleneck", priority: "high" },
+      { title: "Choose one change and measure the result against baseline", priority: "medium" },
+    ],
+  },
 ];
