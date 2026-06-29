@@ -1616,4 +1616,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose the few outcomes that deserve next week's focus", priority: "medium" },
     ],
   },
++  {
+    id: "someday-list",
+    title: "Someday list",
+    category: "Organization",
+    description: "Keep future ideas without letting them crowd active work.",
+    tasks: [
+      { title: "Capture ideas that are not commitments for this week", priority: "low" },
+      { title: "Group them by interest, project, or time horizon", priority: "low" },
+      { title: "Review whether any idea should become an active project", priority: "medium" },
+    ],
+  },
 ];
