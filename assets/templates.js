@@ -296,4 +296,15 @@ window.EveryDayToDoTemplates = [
       { title: "Remove details that do not strengthen the core narrative", priority: "medium" },
     ],
   },
++  {
+    id: "case-study",
+    title: "Case study",
+    category: "Writing",
+    description: "Document a problem, intervention, and measurable result.",
+    tasks: [
+      { title: "Describe the initial situation and its important constraints", priority: "medium" },
+      { title: "Explain the chosen approach and key decisions", priority: "high" },
+      { title: "Gather evidence of results and lessons learned", priority: "high" },
+    ],
+  },
 ];
