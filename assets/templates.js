@@ -1924,4 +1924,15 @@ window.EveryDayToDoTemplates = [
       { title: "Complete the earliest time-sensitive booking or purchase", priority: "high" },
     ],
   },
++  {
+    id: "photo-backup",
+    title: "Photo backup",
+    category: "Digital",
+    description: "Protect photos and make recent memories easier to find.",
+    tasks: [
+      { title: "Import recent photos and verify they are readable", priority: "medium" },
+      { title: "Back up to a second location with adequate storage", priority: "high" },
+      { title: "Delete obvious duplicates and label one recent album", priority: "low" },
+    ],
+  },
 ];
