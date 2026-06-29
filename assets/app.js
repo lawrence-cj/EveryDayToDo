@@ -3,6 +3,7 @@ const templates = Array.isArray(window.EveryDayToDoTemplates) ? window.EveryDayT
 const state = {
   filter: "today",
   tasks: loadTasks(),
+  templateQuery: "",
 };
 
 const dateFormatter = new Intl.DateTimeFormat("en", {
@@ -40,6 +41,7 @@ const elements = {
   templateDialog: document.querySelector("#template-dialog"),
   templateDate: document.querySelector("#template-date"),
   templateList: document.querySelector("#template-list"),
+  templateSearch: document.querySelector("#template-search"),
 };
 
 function localDateString(date = new Date()) {
@@ -217,7 +219,19 @@ function applyTemplate(template) {
 }
 
 function renderTemplates() {
-  const cards = templates.map((template) => {
+  const normalizedQuery = state.templateQuery.trim().toLowerCase();
+  const matchingTemplates = templates.filter((template) => {
+    const searchableContent = [
+      template.title,
+      template.category,
+      template.description,
+      ...template.tasks.map((task) => task.title),
+    ].join(" ").toLowerCase();
+
+    return searchableContent.includes(normalizedQuery);
+  });
+
+  const cards = matchingTemplates.map((template) => {
     const button = document.createElement("button");
     const title = document.createElement("strong");
     const category = document.createElement("small");
@@ -250,6 +264,10 @@ function initialize() {
   elements.clearCompleted.addEventListener("click", clearCompleted);
   elements.openTemplates.addEventListener("click", openTemplateDialog);
   elements.closeTemplates.addEventListener("click", () => elements.templateDialog.close());
+  elements.templateSearch.addEventListener("input", (event) => {
+    state.templateQuery = event.target.value;
+    renderTemplates();
+  });
   elements.filters.forEach((filter) => {
     filter.addEventListener("click", () => {
       state.filter = filter.dataset.filter;
