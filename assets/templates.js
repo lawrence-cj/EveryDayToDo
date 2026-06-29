@@ -1110,4 +1110,15 @@ window.EveryDayToDoTemplates = [
       { title: "Write tomorrow's first task to reduce bedtime rumination", priority: "low" },
     ],
   },
++  {
+    id: "hydration-check",
+    title: "Hydration check",
+    category: "Health",
+    description: "Make hydration easier to notice through the day.",
+    tasks: [
+      { title: "Fill a water bottle and place it within reach", priority: "low" },
+      { title: "Add water breaks around existing routines", priority: "low" },
+      { title: "Notice whether activity or weather changes your needs", priority: "low" },
+    ],
+  },
 ];
