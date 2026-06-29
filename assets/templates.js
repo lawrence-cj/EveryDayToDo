@@ -879,4 +879,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record the remaining costs in a monthly budget", priority: "medium" },
     ],
   },
++  {
+    id: "password-hygiene",
+    title: "Password hygiene",
+    category: "Admin",
+    description: "Strengthen the security of important accounts.",
+    tasks: [
+      { title: "Identify accounts that lack a unique strong password", priority: "high" },
+      { title: "Enable multi-factor authentication for high-value accounts", priority: "high" },
+      { title: "Store recovery codes in a secure location", priority: "medium" },
+    ],
+  },
 ];
