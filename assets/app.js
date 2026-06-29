@@ -40,6 +40,7 @@ const elements = {
   openTemplates: document.querySelector("#open-templates"),
   templateDialog: document.querySelector("#template-dialog"),
   templateDate: document.querySelector("#template-date"),
+  templateEmpty: document.querySelector("#template-empty"),
   templateList: document.querySelector("#template-list"),
   templateResults: document.querySelector("#template-results"),
   templateSearch: document.querySelector("#template-search"),
@@ -251,6 +252,7 @@ function renderTemplates() {
 
   elements.templateList.replaceChildren(...cards);
   elements.templateResults.textContent = `Showing ${pluralize(matchingTemplates.length, "template")}`;
+  elements.templateEmpty.hidden = matchingTemplates.length !== 0;
 }
 
 function openTemplateDialog() {
