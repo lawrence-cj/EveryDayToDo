@@ -490,6 +490,31 @@ h1 {
   font-size: 0.82rem;
 }
 
+.template-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.template-filter {
+  padding: 6px 9px;
+  border: 1px solid #cad7d2;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #40514b;
+  font-size: 0.78rem;
+}
+
+.template-filter:hover,
+.template-filter:focus-visible,
+.template-filter.is-active {
+  border-color: #0f766e;
+  background: #dcebe5;
+  color: #075b54;
+  outline: none;
+}
+
 .template-empty {
   margin: 0;
   padding: 26px 0 10px;
