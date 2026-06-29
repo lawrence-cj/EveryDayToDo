@@ -1341,4 +1341,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one flexible priority for each travel day", priority: "medium" },
     ],
   },
++  {
+    id: "packing-list",
+    title: "Packing list",
+    category: "Travel",
+    description: "Pack with fewer omissions and less last-minute stress.",
+    tasks: [
+      { title: "Check forecast, itinerary, and activity-specific needs", priority: "medium" },
+      { title: "Pack essentials, medications, and important documents", priority: "high" },
+      { title: "Charge devices and keep travel items easy to access", priority: "medium" },
+    ],
+  },
 ];
