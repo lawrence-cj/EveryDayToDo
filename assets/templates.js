@@ -1286,4 +1286,15 @@ window.EveryDayToDoTemplates = [
       { title: "Review presentation quality across desktop and mobile", priority: "medium" },
     ],
   },
++  {
+    id: "photo-project",
+    title: "Photo project",
+    category: "Creative",
+    description: "Plan a small photography project with a clear constraint.",
+    tasks: [
+      { title: "Choose a subject, location, and visual constraint", priority: "medium" },
+      { title: "Prepare equipment and a realistic shooting window", priority: "low" },
+      { title: "Select and organize the strongest images afterward", priority: "high" },
+    ],
+  },
 ];
