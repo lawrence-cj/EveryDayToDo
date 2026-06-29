@@ -2045,4 +2045,15 @@ window.EveryDayToDoTemplates = [
       { title: "Keep the time free from unrelated obligations", priority: "medium" },
     ],
   },
++  {
+    id: "weekend-reset",
+    title: "Weekend reset",
+    category: "Personal",
+    description: "Use a short reset to make the next week less rushed.",
+    tasks: [
+      { title: "Review home, calendar, and personal needs for next week", priority: "medium" },
+      { title: "Complete one task that would otherwise create weekday stress", priority: "high" },
+      { title: "Protect time for rest before the week begins", priority: "medium" },
+    ],
+  },
 ];
