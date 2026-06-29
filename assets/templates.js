@@ -373,4 +373,15 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare consent, recording, and note-taking process", priority: "medium" },
     ],
   },
++  {
+    id: "survey-design",
+    title: "Survey design",
+    category: "Research",
+    description: "Design a short survey that produces interpretable answers.",
+    tasks: [
+      { title: "Choose the decisions each question should support", priority: "high" },
+      { title: "Write neutral questions with clear response options", priority: "high" },
+      { title: "Pilot the survey with one representative respondent", priority: "medium" },
+    ],
+  },
 ];
