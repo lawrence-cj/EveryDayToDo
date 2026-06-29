@@ -120,4 +120,15 @@ window.EveryDayToDoTemplates = [
       { title: "Protect one recovery break before the next demanding task", priority: "medium" },
     ],
   },
++  {
+    id: "weekly-work-plan",
+    title: "Weekly work plan",
+    category: "Work",
+    description: "Set a realistic direction for the coming work week.",
+    tasks: [
+      { title: "Review deadlines, meetings, and active commitments", priority: "high" },
+      { title: "Choose the three outcomes that would make the week successful", priority: "high" },
+      { title: "Reserve focus blocks for the most important outcome", priority: "medium" },
+    ],
+  },
 ];
