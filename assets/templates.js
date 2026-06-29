@@ -1077,4 +1077,15 @@ window.EveryDayToDoTemplates = [
       { title: "Log performance and any movement adjustments", priority: "low" },
     ],
   },
++  {
+    id: "cardio-session",
+    title: "Cardio session",
+    category: "Health",
+    description: "Make an aerobic session specific and manageable.",
+    tasks: [
+      { title: "Select the route, duration, or interval structure", priority: "low" },
+      { title: "Complete the session at a sustainable effort", priority: "medium" },
+      { title: "Cool down, hydrate, and note recovery needs", priority: "low" },
+    ],
+  },
 ];
