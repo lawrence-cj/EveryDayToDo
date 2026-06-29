@@ -912,4 +912,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one relationship that needs a follow-up", priority: "high" },
     ],
   },
++  {
+    id: "records-archive",
+    title: "Records archive",
+    category: "Admin",
+    description: "Store important documents in an orderly, retrievable way.",
+    tasks: [
+      { title: "Gather documents by year, type, or account", priority: "medium" },
+      { title: "Name files consistently and retain the needed originals", priority: "high" },
+      { title: "Verify backups and record where the archive lives", priority: "high" },
+    ],
+  },
 ];
