@@ -1099,4 +1099,15 @@ window.EveryDayToDoTemplates = [
       { title: "Prepare a realistic plan for tomorrow's energy", priority: "medium" },
     ],
   },
++  {
+    id: "sleep-reset",
+    title: "Sleep reset",
+    category: "Health",
+    description: "Create conditions for a more consistent night of sleep.",
+    tasks: [
+      { title: "Choose a wind-down time and protect it on the calendar", priority: "medium" },
+      { title: "Prepare the room and remove stimulating late tasks", priority: "medium" },
+      { title: "Write tomorrow's first task to reduce bedtime rumination", priority: "low" },
+    ],
+  },
 ];
