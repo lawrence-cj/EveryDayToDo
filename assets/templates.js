@@ -1506,4 +1506,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one focus to carry into the next month", priority: "high" },
     ],
   },
++  {
+    id: "gratitude-practice",
+    title: "Gratitude practice",
+    category: "Reflection",
+    description: "Notice specific sources of support and meaning.",
+    tasks: [
+      { title: "Write down three concrete things you appreciate", priority: "low" },
+      { title: "Choose one person or effort to acknowledge", priority: "medium" },
+      { title: "Send thanks or preserve the note for later", priority: "low" },
+    ],
+  },
 ];
