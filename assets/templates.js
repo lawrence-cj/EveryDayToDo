@@ -835,4 +835,15 @@ window.EveryDayToDoTemplates = [
       { title: "Update the shared project record with the outcome", priority: "medium" },
     ],
   },
++  {
+    id: "email-zero",
+    title: "Email zero",
+    category: "Admin",
+    description: "Process a backlog into clear decisions and next actions.",
+    tasks: [
+      { title: "Sort messages into reply, delegate, task, or archive", priority: "high" },
+      { title: "Reply only to messages that need a concise answer now", priority: "medium" },
+      { title: "Schedule follow-up tasks instead of leaving messages unread", priority: "high" },
+    ],
+  },
 ];
