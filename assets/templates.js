@@ -1715,4 +1715,15 @@ window.EveryDayToDoTemplates = [
       { title: "Practice timing and prepare for likely questions", priority: "medium" },
     ],
   },
++  {
+    id: "research-proposal",
+    title: "Research proposal",
+    category: "Academic",
+    description: "Shape an early research idea into a credible proposal.",
+    tasks: [
+      { title: "Define the question, significance, and intended contribution", priority: "high" },
+      { title: "Outline approach, sources, timeline, and feasibility", priority: "high" },
+      { title: "Request feedback on the most uncertain assumption", priority: "medium" },
+    ],
+  },
 ];
