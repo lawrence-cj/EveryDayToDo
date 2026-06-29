@@ -1374,4 +1374,15 @@ window.EveryDayToDoTemplates = [
       { title: "Leave space for rest, meals, and unexpected discoveries", priority: "low" },
     ],
   },
++  {
+    id: "return-home",
+    title: "Return home",
+    category: "Travel",
+    description: "Close out a trip and reset home routines smoothly.",
+    tasks: [
+      { title: "Unpack essentials, start laundry, and check perishables", priority: "medium" },
+      { title: "Save receipts, documents, and useful travel notes", priority: "low" },
+      { title: "Review messages and choose the first workday priority", priority: "high" },
+    ],
+  },
 ];
