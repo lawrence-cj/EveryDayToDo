@@ -681,4 +681,15 @@ window.EveryDayToDoTemplates = [
       { title: "Add a regression check before closing the investigation", priority: "medium" },
     ],
   },
++  {
+    id: "technical-debt",
+    title: "Technical debt review",
+    category: "Engineering",
+    description: "Choose debt work that reduces real delivery risk.",
+    tasks: [
+      { title: "List debt items with their user or team impact", priority: "medium" },
+      { title: "Estimate urgency, effort, and dependencies", priority: "high" },
+      { title: "Schedule the smallest high-leverage improvement", priority: "high" },
+    ],
+  },
 ];
