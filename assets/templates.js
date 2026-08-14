@@ -2100,4 +2100,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record progress and define the next entry point", priority: "medium" },
     ],
   },
+  {
+    id: "personal-reading-list",
+    title: "Personal reading list",
+    category: "Personal",
+    description: "Turn a growing reading list into one intentional next choice.",
+    tasks: [
+      { title: "Review saved books and remove titles that no longer interest you", priority: "low" },
+      { title: "Choose one book that fits your current time and attention", priority: "high" },
+      { title: "Schedule the first reading session and note where to begin", priority: "medium" },
+    ],
+  },
 ];
