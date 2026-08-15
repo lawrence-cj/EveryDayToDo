@@ -2111,4 +2111,15 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule the first reading session and note where to begin", priority: "medium" },
     ],
   },
+  {
+    id: "personal-learning-hour",
+    title: "Personal learning hour",
+    category: "Personal",
+    description: "Use one focused hour to make steady progress on a chosen skill.",
+    tasks: [
+      { title: "Choose one small learning outcome for this session", priority: "high" },
+      { title: "Practice actively with an exercise, example, or explanation", priority: "high" },
+      { title: "Capture what became clearer and the next topic to revisit", priority: "medium" },
+    ],
+  },
 ];
