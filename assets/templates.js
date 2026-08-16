@@ -2122,4 +2122,15 @@ window.EveryDayToDoTemplates = [
       { title: "Capture what became clearer and the next topic to revisit", priority: "medium" },
     ],
   },
+  {
+    id: "personal-admin-reset",
+    title: "Personal admin reset",
+    category: "Personal",
+    description: "Clear a small batch of personal paperwork and loose ends.",
+    tasks: [
+      { title: "Collect the forms, messages, and errands waiting for action", priority: "medium" },
+      { title: "Finish the most time-sensitive item before starting another", priority: "high" },
+      { title: "File completed records and schedule anything still pending", priority: "medium" },
+    ],
+  },
 ];
