@@ -2133,4 +2133,15 @@ window.EveryDayToDoTemplates = [
       { title: "File completed records and schedule anything still pending", priority: "medium" },
     ],
   },
+  {
+    id: "personal-week-ahead",
+    title: "Personal week ahead",
+    category: "Personal",
+    description: "Prepare the coming week around personal priorities and capacity.",
+    tasks: [
+      { title: "Review appointments, commitments, and household needs", priority: "high" },
+      { title: "Choose one personal priority worth protecting this week", priority: "high" },
+      { title: "Reserve time for recovery and one enjoyable activity", priority: "medium" },
+    ],
+  },
 ];
