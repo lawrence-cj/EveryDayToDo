@@ -1463,6 +1463,17 @@ window.EveryDayToDoTemplates = [
     ],
   },
   {
+    id: "relationship-repair",
+    title: "Relationship repair",
+    category: "Relationships",
+    description: "Prepare for a calm conversation after tension or misunderstanding.",
+    tasks: [
+      { title: "Describe what happened without assigning motives", priority: "high" },
+      { title: "Identify your part and the impact you want to acknowledge", priority: "high" },
+      { title: "Suggest one concrete step toward rebuilding trust", priority: "medium" },
+    ],
+  },
+  {
     id: "daily-reflection",
     title: "Daily reflection",
     category: "Reflection",
