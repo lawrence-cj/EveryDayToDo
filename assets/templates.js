@@ -1474,6 +1474,17 @@ window.EveryDayToDoTemplates = [
     ],
   },
   {
+    id: "quality-time",
+    title: "Quality time",
+    category: "Relationships",
+    description: "Plan unhurried time together around shared attention.",
+    tasks: [
+      { title: "Choose an activity both people can genuinely enjoy", priority: "medium" },
+      { title: "Agree on a time and remove avoidable distractions", priority: "high" },
+      { title: "Leave room for conversation instead of overplanning", priority: "low" },
+    ],
+  },
+  {
     id: "daily-reflection",
     title: "Daily reflection",
     category: "Reflection",
