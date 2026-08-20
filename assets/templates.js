@@ -1485,6 +1485,17 @@ window.EveryDayToDoTemplates = [
     ],
   },
   {
+    id: "support-check-in",
+    title: "Support check-in",
+    category: "Relationships",
+    description: "Offer useful support without assuming what another person needs.",
+    tasks: [
+      { title: "Ask how the person is doing and listen before solving", priority: "high" },
+      { title: "Clarify whether they want company, advice, or practical help", priority: "high" },
+      { title: "Follow through on one specific offer of support", priority: "medium" },
+    ],
+  },
+  {
     id: "daily-reflection",
     title: "Daily reflection",
     category: "Reflection",
