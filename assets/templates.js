@@ -1496,6 +1496,17 @@ window.EveryDayToDoTemplates = [
     ],
   },
   {
+    id: "collaborative-decision",
+    title: "Collaborative decision",
+    category: "Relationships",
+    description: "Reach a shared decision while making each person's needs visible.",
+    tasks: [
+      { title: "State the decision and constraints in neutral language", priority: "high" },
+      { title: "Invite each person to name priorities and concerns", priority: "high" },
+      { title: "Record the choice, tradeoffs, and agreed next action", priority: "medium" },
+    ],
+  },
+  {
     id: "daily-reflection",
     title: "Daily reflection",
     category: "Reflection",
