@@ -1507,6 +1507,17 @@ window.EveryDayToDoTemplates = [
     ],
   },
   {
+    id: "long-distance-connection",
+    title: "Long-distance connection",
+    category: "Relationships",
+    description: "Maintain a meaningful connection across distance and busy schedules.",
+    tasks: [
+      { title: "Choose a communication rhythm both people can sustain", priority: "medium" },
+      { title: "Share one specific update instead of waiting for a perfect recap", priority: "high" },
+      { title: "Set the next call or shared activity before signing off", priority: "medium" },
+    ],
+  },
+  {
     id: "daily-reflection",
     title: "Daily reflection",
     category: "Reflection",
