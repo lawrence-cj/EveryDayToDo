@@ -1397,6 +1397,17 @@ window.EveryDayToDoTemplates = [
     ],
   },
   {
+    id: "travel-budget-check",
+    title: "Travel budget check",
+    category: "Travel",
+    description: "Review trip spending early enough to adjust the remaining plan.",
+    tasks: [
+      { title: "Collect recent transport, lodging, food, and activity costs", priority: "medium" },
+      { title: "Compare actual spending with the remaining trip budget", priority: "high" },
+      { title: "Adjust one upcoming expense while protecting key experiences", priority: "medium" },
+    ],
+  },
+  {
     id: "friend-catch-up",
     title: "Friend catch-up",
     category: "Relationships",
