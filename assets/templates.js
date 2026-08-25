@@ -1408,6 +1408,17 @@ window.EveryDayToDoTemplates = [
     ],
   },
   {
+    id: "accommodation-arrival",
+    title: "Accommodation arrival",
+    category: "Travel",
+    description: "Settle into new accommodation and catch problems early.",
+    tasks: [
+      { title: "Verify access instructions, checkout time, and host contact details", priority: "high" },
+      { title: "Check safety, cleanliness, and essential amenities on arrival", priority: "high" },
+      { title: "Store valuables and prepare what the next morning needs", priority: "medium" },
+    ],
+  },
+  {
     id: "friend-catch-up",
     title: "Friend catch-up",
     category: "Relationships",
