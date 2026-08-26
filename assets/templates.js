@@ -2221,4 +2221,15 @@ window.EveryDayToDoTemplates = [
       { title: "Reserve time for recovery and one enjoyable activity", priority: "medium" },
     ],
   },
+  {
+    id: "travel-health-kit",
+    title: "Travel health kit",
+    category: "Travel",
+    description: "Prepare essential health supplies before leaving home.",
+    tasks: [
+      { title: "Review destination, trip length, and personal health needs", priority: "high" },
+      { title: "Pack medications, basic first aid, and prescriptions", priority: "high" },
+      { title: "Save insurance and local care information offline", priority: "medium" },
+    ],
+  },
 ];
