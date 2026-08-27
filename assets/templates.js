@@ -2232,4 +2232,15 @@ window.EveryDayToDoTemplates = [
       { title: "Save insurance and local care information offline", priority: "medium" },
     ],
   },
+  {
+    id: "trip-photo-review",
+    title: "Trip photo review",
+    category: "Travel",
+    description: "Preserve useful memories before travel photos become an untouched archive.",
+    tasks: [
+      { title: "Back up photos and verify the copy opens correctly", priority: "high" },
+      { title: "Remove obvious duplicates and select a small set of favorites", priority: "low" },
+      { title: "Label the album with places, dates, and people", priority: "medium" },
+    ],
+  },
 ];
