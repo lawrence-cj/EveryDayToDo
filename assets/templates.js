@@ -2243,4 +2243,15 @@ window.EveryDayToDoTemplates = [
       { title: "Label the album with places, dates, and people", priority: "medium" },
     ],
   },
+  {
+    id: "career-skills-gap",
+    title: "Career skills gap",
+    category: "Career",
+    description: "Turn a desired next role into a focused development plan.",
+    tasks: [
+      { title: "Compare target role expectations with current evidence", priority: "high" },
+      { title: "Choose one high-value skill gap to address first", priority: "high" },
+      { title: "Define a practice project and a date to review progress", priority: "medium" },
+    ],
+  },
 ];
