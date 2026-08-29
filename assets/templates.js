@@ -2254,4 +2254,15 @@ window.EveryDayToDoTemplates = [
       { title: "Define a practice project and a date to review progress", priority: "medium" },
     ],
   },
+  {
+    id: "professional-portfolio-review",
+    title: "Professional portfolio review",
+    category: "Career",
+    description: "Keep professional work samples current and easy to evaluate.",
+    tasks: [
+      { title: "Remove outdated samples that no longer represent your direction", priority: "medium" },
+      { title: "Add one recent result with context and measurable impact", priority: "high" },
+      { title: "Verify descriptions, links, permissions, and contact details", priority: "high" },
+    ],
+  },
 ];
