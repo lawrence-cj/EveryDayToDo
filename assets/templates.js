@@ -2265,4 +2265,15 @@ window.EveryDayToDoTemplates = [
       { title: "Verify descriptions, links, permissions, and contact details", priority: "high" },
     ],
   },
+  {
+    id: "event-budget",
+    title: "Event budget",
+    category: "Events",
+    description: "Set practical spending limits before event costs accumulate.",
+    tasks: [
+      { title: "List venue, food, travel, supplies, and contingency costs", priority: "high" },
+      { title: "Assign limits based on the event's most important outcomes", priority: "high" },
+      { title: "Track deposits, due dates, and the remaining buffer", priority: "medium" },
+    ],
+  },
 ];
