@@ -2276,4 +2276,15 @@ window.EveryDayToDoTemplates = [
       { title: "Track deposits, due dates, and the remaining buffer", priority: "medium" },
     ],
   },
+  {
+    id: "event-follow-up",
+    title: "Event follow-up",
+    category: "Events",
+    description: "Close an event with timely thanks, notes, and next steps.",
+    tasks: [
+      { title: "Send concise thanks to contributors and key participants", priority: "medium" },
+      { title: "Capture decisions, contacts, and promised follow-ups", priority: "high" },
+      { title: "Store materials and note improvements for the next event", priority: "medium" },
+    ],
+  },
 ];
