@@ -2287,4 +2287,15 @@ window.EveryDayToDoTemplates = [
       { title: "Store materials and note improvements for the next event", priority: "medium" },
     ],
   },
+  {
+    id: "tax-document-check",
+    title: "Tax document check",
+    category: "Finance",
+    description: "Keep tax records complete, secure, and ready for future reference.",
+    tasks: [
+      { title: "Match filed returns with supporting income and deduction records", priority: "high" },
+      { title: "Confirm documents are labeled by year and stored securely", priority: "high" },
+      { title: "Record retention dates and safely remove expired duplicates", priority: "medium" },
+    ],
+  },
 ];
