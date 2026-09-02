@@ -2298,4 +2298,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record retention dates and safely remove expired duplicates", priority: "medium" },
     ],
   },
+  {
+    id: "emergency-fund-review",
+    title: "Emergency fund review",
+    category: "Finance",
+    description: "Check whether emergency savings still match current essential costs.",
+    tasks: [
+      { title: "Estimate one month of current essential expenses", priority: "high" },
+      { title: "Compare the fund balance with the chosen coverage target", priority: "high" },
+      { title: "Set the next contribution or document why the target changed", priority: "medium" },
+    ],
+  },
 ];
