@@ -2309,4 +2309,15 @@ window.EveryDayToDoTemplates = [
       { title: "Set the next contribution or document why the target changed", priority: "medium" },
     ],
   },
+  {
+    id: "midweek-reflection",
+    title: "Midweek reflection",
+    category: "Reflection",
+    description: "Use the week's evidence to make the remaining days more intentional.",
+    tasks: [
+      { title: "Review progress, energy, and unexpected demands so far", priority: "medium" },
+      { title: "Choose one commitment to finish and one to defer", priority: "high" },
+      { title: "Adjust the next two days around the clearest priority", priority: "high" },
+    ],
+  },
 ];
