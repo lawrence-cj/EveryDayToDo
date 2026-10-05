@@ -2320,4 +2320,15 @@ window.EveryDayToDoTemplates = [
       { title: "Adjust the next two days around the clearest priority", priority: "high" },
     ],
   },
+  {
+    id: "task-dependency-map",
+    title: "Task dependency map",
+    category: "Organization",
+    description: "Make the order of dependent tasks clear before work begins.",
+    tasks: [
+      { title: "List the deliverables and the inputs each one requires", priority: "high" },
+      { title: "Mark blockers, owners, and the earliest start for each task", priority: "high" },
+      { title: "Choose the first task that unlocks the most downstream work", priority: "medium" },
+    ],
+  },
 ];
