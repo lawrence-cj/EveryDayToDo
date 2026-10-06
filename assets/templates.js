@@ -2331,4 +2331,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose the first task that unlocks the most downstream work", priority: "medium" },
     ],
   },
+  {
+    id: "reference-folder-cleanup",
+    title: "Reference folder cleanup",
+    category: "Organization",
+    description: "Keep frequently used reference files current and easy to find.",
+    tasks: [
+      { title: "Remove duplicate, expired, and obviously outdated files", priority: "medium" },
+      { title: "Rename useful files with clear topics and dates", priority: "high" },
+      { title: "Move active references into a small, consistent folder structure", priority: "medium" },
+    ],
+  },
 ];
