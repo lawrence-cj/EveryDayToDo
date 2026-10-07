@@ -2342,4 +2342,15 @@ window.EveryDayToDoTemplates = [
       { title: "Move active references into a small, consistent folder structure", priority: "medium" },
     ],
   },
+  {
+    id: "creative-idea-selection",
+    title: "Creative idea selection",
+    category: "Creative",
+    description: "Choose one promising idea without getting stuck comparing every option.",
+    tasks: [
+      { title: "List the ideas that still feel useful or exciting", priority: "low" },
+      { title: "Compare them by effort, learning value, and likely impact", priority: "medium" },
+      { title: "Select one idea and define its smallest testable version", priority: "high" },
+    ],
+  },
 ];
