@@ -2353,4 +2353,15 @@ window.EveryDayToDoTemplates = [
       { title: "Select one idea and define its smallest testable version", priority: "high" },
     ],
   },
+  {
+    id: "project-restart",
+    title: "Project restart",
+    category: "Work",
+    description: "Resume a paused project with enough context to take the next step.",
+    tasks: [
+      { title: "Read the last progress note and inspect unfinished work", priority: "high" },
+      { title: "Check whether goals, dependencies, or deadlines have changed", priority: "high" },
+      { title: "Choose one small deliverable and reserve time to finish it", priority: "medium" },
+    ],
+  },
 ];
