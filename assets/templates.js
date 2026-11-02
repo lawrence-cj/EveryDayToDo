@@ -2375,4 +2375,15 @@ window.EveryDayToDoTemplates = [
       { title: "Link results and logs with a note on known limitations", priority: "medium" },
     ],
   },
+  {
+    id: "monthly-priority-reset",
+    title: "Monthly priority reset",
+    category: "Reflection",
+    description: "Choose a realistic focus for the month from current commitments.",
+    tasks: [
+      { title: "Review last month's outcomes and unfinished commitments", priority: "medium" },
+      { title: "Choose up to three outcomes that fit the available time", priority: "high" },
+      { title: "Schedule the first action and a date to review each outcome", priority: "high" },
+    ],
+  },
 ];
