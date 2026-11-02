@@ -2364,4 +2364,15 @@ window.EveryDayToDoTemplates = [
       { title: "Choose one small deliverable and reserve time to finish it", priority: "medium" },
     ],
   },
+  {
+    id: "experiment-reproducibility",
+    title: "Experiment reproducibility",
+    category: "Research",
+    description: "Save the details needed to repeat and compare an experiment.",
+    tasks: [
+      { title: "Record the code revision, data version, and environment", priority: "high" },
+      { title: "Save the exact configuration, command, and random seed", priority: "high" },
+      { title: "Link results and logs with a note on known limitations", priority: "medium" },
+    ],
+  },
 ];
