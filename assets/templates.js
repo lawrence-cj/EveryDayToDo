@@ -2386,4 +2386,15 @@ window.EveryDayToDoTemplates = [
       { title: "Schedule the first action and a date to review each outcome", priority: "high" },
     ],
   },
+  {
+    id: "meeting-action-audit",
+    title: "Meeting action audit",
+    category: "Meetings",
+    description: "Check that meeting decisions have owners and useful next steps.",
+    tasks: [
+      { title: "Review recent meeting notes for promises and decisions", priority: "medium" },
+      { title: "Confirm an owner and due date for each outstanding action", priority: "high" },
+      { title: "Follow up on blocked actions and archive completed items", priority: "high" },
+    ],
+  },
 ];
