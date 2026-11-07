@@ -2397,4 +2397,15 @@ window.EveryDayToDoTemplates = [
       { title: "Follow up on blocked actions and archive completed items", priority: "high" },
     ],
   },
+  {
+    id: "dataset-readiness-check",
+    title: "Dataset readiness check",
+    category: "Research",
+    description: "Check a dataset before committing time to a new experiment.",
+    tasks: [
+      { title: "Confirm the dataset version, usage permissions, and split definitions", priority: "high" },
+      { title: "Inspect representative samples for missing fields and invalid labels", priority: "high" },
+      { title: "Record known limitations and verify the data loader on a small batch", priority: "medium" },
+    ],
+  },
 ];
