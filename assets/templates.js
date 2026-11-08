@@ -2408,4 +2408,15 @@ window.EveryDayToDoTemplates = [
       { title: "Record known limitations and verify the data loader on a small batch", priority: "medium" },
     ],
   },
+  {
+    id: "weekly-learning-recap",
+    title: "Weekly learning recap",
+    category: "Learning",
+    description: "Turn a week of study into retained knowledge and a clear next step.",
+    tasks: [
+      { title: "Recall the main ideas learned this week before reopening notes", priority: "high" },
+      { title: "Check gaps against the source and work through one example", priority: "high" },
+      { title: "Choose one topic to revisit and schedule a short practice session", priority: "medium" },
+    ],
+  },
 ];
